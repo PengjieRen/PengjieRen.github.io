@@ -83,12 +83,11 @@
                 >
               </li>
               <li>
-                <a class="scrollto" href="#eudcation-section">Publications</a>
+                <a class="scrollto" href="#publications-section"
+                  >Publications</a
+                >
               </li>
               <li><a class="scrollto" href="#skills-section">Reviewing</a></li>
-              <li>
-                <a class="scrollto" href="#experiences-section">Experiences</a>
-              </li>
               <li>
                 <a class="scrollto" href="#supervision-section">Supervision</a>
               </li>
@@ -162,11 +161,11 @@
           </div>
         </div>
       </section>
-      <section id="eudcation-section" class="education-section section">
+      <section id="publications-section" class="education-section section">
         <h2 class="section-title">Publications</h2>
         <div class="row">
           <div class="publication-list item">
-            <ul>
+            <ul id="list1">
               <li>
                 Yujie Lin, Pengjie Ren, Zhumin Chen, Zhaochun Ren, Jun Ma, and
                 Maarten de Rijke. Improving Outfit Recommendation with
@@ -263,7 +262,8 @@
                   Linguistics (COLING)</em
                 >, 2016.
               </li>
-
+            </ul>
+            <ul id="list2" style="display:none">
               <li>
                 <strong>Pengjie Ren</strong>, Zhumin Chen, Jun Ma, Shuaiqiang
                 Wang, Zhiwei Zhang, Zhaochun Ren.
@@ -387,6 +387,12 @@
                 2013.
               </li>
             </ul>
+            <div class="actions">
+              <a class="btn" onclick="togglePublication(this)">
+                <i class="fa fa-chevron-circle-down"></i>&nbsp; More
+                publications
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -401,31 +407,6 @@
               <li>CONLL 2018</li>
               <li>EMNLP 2018</li>
               <li>ACL NMT 2018</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section id="experiences-section" class="section">
-        <h2 class="section-title">Experiences</h2>
-        <div class="row">
-          <div class=" publication-list desc">
-            <ul>
-              <li>
-                Informatics Institute of University of Amsterdam supervised by
-                Prof. Maarten de Rijke 2018.10 --
-              </li>
-              <li>
-                NLC group of Microsoft Research Asia supervised by Dr.
-                <a
-                  href="http://research.microsoft.com/en-us/people/fuwei/"
-                  target="_blank"
-                  >Furu Wei</a
-                >. 2015.10 -- 2016.06
-              </li>
-              <li>
-                IR Lab. of Shandong University supervised by Prof. Jun Ma 2013.9
-                --2018.6
-              </li>
             </ul>
           </div>
         </div>
@@ -532,23 +513,7 @@
       type="text/javascript"
       src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"
     ></script>
-    <script
-      type="text/javascript"
-      src="assets/plugins/easy-pie-chart/dist/jquery.easypiechart.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/plugins/imagesloaded.pkgd.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="assets/plugins/isotope.pkgd.min.js"
-    ></script>
-
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
-
-    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-    <script src="assets/js/demo/style-switcher.js"></script>
   </body>
 </html>
