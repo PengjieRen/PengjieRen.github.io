@@ -35,7 +35,7 @@ function togglePublication(btn) {
   if (list2.css('display') == 'none') {
     list2.fadeIn();
     $(btn).html(
-      '<i class="fa fa-chevron-circle-up"></i>&nbsp;Top publications'
+      '<i class="fa fa-chevron-circle-up"></i>&nbsp;Recent publications'
     );
   } else {
     list2.fadeOut();
@@ -44,7 +44,7 @@ function togglePublication(btn) {
       500
     );
     $(btn).html(
-      '<i class="fa fa-chevron-circle-down"></i>&nbsp;More publications'
+      '<i class="fa fa-chevron-circle-down"></i>&nbsp;Full publications'
     );
   }
 }

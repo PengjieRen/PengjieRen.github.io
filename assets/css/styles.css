@@ -195,7 +195,7 @@ a.btn:hover {
   margin: 0 auto;
 }
 .header .profile a {
-  color: #444;
+  color: #222;
 }
 .header .contact-info {
   background: #008fa1;
@@ -435,11 +435,10 @@ a.btn:hover {
 .education-section .desc {
   color: #666;
 }
-.skills-section .subtitle {
+.section .subtitle {
   font-size: 18px;
   color: #8a8a8a;
-  margin-top: 0;
-  margin-bottom: 45px;
+  margin-bottom: 2px;
   font-weight: 300;
 }
 .skills-section .top-skills {
