@@ -19,6 +19,7 @@ section {
   max-width: 1000px;
   padding: 2rem 6rem;
   margin: 0 auto;
+  position: relative;
 }
 h1,
 h2,
@@ -174,6 +175,7 @@ a.btn:hover {
   font-size: 48px;
   margin-bottom: 15px;
   letter-spacing: 0.5px;
+  padding-top: 30px;
 }
 .header .title {
   font-size: 28px;
@@ -183,7 +185,7 @@ a.btn:hover {
 }
 .header .intro {
   background: #00a5bb;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 60px;
   position: relative;
   font-size: 16px;
@@ -939,4 +941,9 @@ a.btn:hover {
 }
 .config-panel .close .fa {
   color: #fff;
+}
+.social.list-inline {
+  padding-left: 20px;
+  position: absolute;
+  right: 20px;
 }
