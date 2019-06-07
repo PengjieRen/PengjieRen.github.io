@@ -34,6 +34,8 @@ var list1 = $('#list1');
 var list2 = $('#list2');
 
 var publications = [
+  'Yangjun Zhang, <strong>Pengjie Ren</strong>, and Maarten de Rijke.Improving Background Based Conversation with Context-aware Knowledge Pre-selection. In SCAI: IJCAI 2019 Workshop on Search-Oriented Conversational AI. August 2019.',
+  'Jiahuan Pei, <strong>Pengjie Ren</strong>, and Maarten de Rijke. A Modular Task-oriented Dialogue System Using a Neural Mixture-of-Experts. In WCIS: SIGIR 2019 Workshop on Conversational Interaction Systems. ACM, July 2019.',
   'Yifan Chen, <strong>Pengjie Ren</strong>, Yang Wang, and Maarten de Rijke. Bayesian Personalized Feature Interaction Selection for Factorization Machines.<em>    The 42th International ACM SIGIR Conference on Research and    Development in Information Retrieval (SIGIR)</em  >, 2019.',
   'Muyang Ma<sup>*</sup>, <strong>Pengjie Ren<sup>*</sup></strong>, Yujie Lin<sup>*</sup>, Zhumin Chen, Jun Ma, and Maarten de Rijke. $pi$-Net: A Parallel Information-sharing Network for Cross-domain Shared-account Sequential Recommendations. <em>    The 42th International ACM SIGIR Conference on Research and    Development in Information Retrieval (SIGIR)</em  >, 2019.',
   'Meirui Wang, <strong>Pengjie Ren</strong>, Lei Mei, Zhumin Chen, Jun Ma, and Maarten de Rijke. A Collaborative Session-based Recommendation Approach with Parallel Memory Modules.<em>    The 42th International ACM SIGIR Conference on Research and    Development in Information Retrieval (SIGIR)</em  >, 2019.',
