@@ -410,6 +410,11 @@ a.btn:hover {
 .publication-list li {
   margin-bottom: 10px;
 }
+.publication-list.reviewing li {
+  float: left;
+  min-width: 250px;
+  margin-left: 50px;
+}
 .education-section .item {
   margin-bottom: 45px;
 }
