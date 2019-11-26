@@ -34,6 +34,7 @@ var list1 = $('#list1');
 var list2 = $('#list2');
 
 var publications = [
+  'Jiahuan Pei, <strong>Pengjie Ren</strong>, Christof Monz, Maarten de Rijke. <a href="https://arxiv.org/abs/1911.08151">Retrospective and Prospective Mixture-of-Generators for Task-oriented Dialogue Response Generation.</a> <em>ARXIV</em>, 2019.',
   'Yujie Lin, <strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Dongxiao Yu, Jun Ma, Maarten de Rijke, Xiuzhen Cheng. <a href="https://arxiv.org/pdf/1910.10086.pdf">From Personalization to Privatization: Meta Matrix Factorization for Private Rating Predictions.</a> <em>ARXIV</em>, 2019.',
   '<strong>Pengjie Ren</strong>, Yujie Lin, Muyang Ma, Zhumin Chen, Jun Ma, Maarten de Rijke. <a href="https://arxiv.org/pdf/1910.02448.pdf">Parallel Split-Join Networks for Shared-account Cross-domain Sequential Recommendations.</a> <em>ARXIV</em>, 2019.',
   'Wanyu Chen, <strong>Pengjie Ren</strong>, Fei Cai, Maarten de Rijke. <a href="https://arxiv.org/pdf/1908.10171.pdf">Improving End-to-End Sequential Recommendations with Intent-aware Diversification.</a> <em>ARXIV</em>, 2019.',
