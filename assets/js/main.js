@@ -34,6 +34,11 @@ var list1 = $('#list1');
 var list2 = $('#list2');
 
 var publications = [
+  'Hongshen Chen, Zhaochun Ren, <strong>Pengjie Ren</strong>, Dawei Yin and Xiaodong He.  AIIS: The SIGIR 2020 Workshop on Applied Interactive Information Systems (AIIS 2020).',
+  'Yujie Lin, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen, Zhaochun Ren, Dongxiao Yu<sup>*</sup>, Jun Ma, Maarten de Rijke and Xiuzhen Cheng. Meta Matrix Factorization for Federated Rating Predictions. <em> The 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2020.',
+  'Shanshan Wang, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen<sup>*</sup>, Zhaochun Ren, Jian-Yun Nie, Jun Ma and Maarten de Rijke. Coding Electronic Health Records with Adversarial Reinforcement Path Generation. <em> The 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2020.',
+  'Nikos Voskarides, Dan Li, <strong>Pengjie Ren</strong>, Evangelos Kanoulas and Maarten de Rijke. Query Resolution for Conversational Search with Limited Supervision. <em> The 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2020.',
+  'Chuan Meng, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen<sup>*</sup>, Weiwei Sun, Zhaochun Ren, Zhaopeng Tu and Maarten de Rijke. DukeNet: A Dual Knowledge Interaction Network for Knowledge-Grounded Conversation. <em> The 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2020.',
   '<strong>Pengjie Ren</strong>, Zhaochun Ren, Fei Sun, Xiangnan He, Dawei Yin and Maarten de Rijke. <a href="https://wsdm2020-nlp4rec.github.io/">The WSDM 2020 Workshop on Natural Language Processing for Recommendations (NLP4REC 2020)</a>.',
   'Minghong Xu, Piji Li, Haoran Yang, <strong>Pengjie Ren</strong>, Zhaochun Ren, Zhumin Chen and Jun Ma. A Neural Topical Expansion Framework for Unstructured Persona-oriented Dialogue Generation. <em>The 24th European Conference on Artificial Intelligence (ECAI 2020)</em>.',
   'Jiahuan Pei, <strong>Pengjie Ren</strong>, Christof Monz and Maarten de Rijke. Retrospective and Prospective Mixture-of-Generators for Task-oriented Dialogue Response Generation. <em>The 24th European Conference on Artificial Intelligence (ECAI 2020)</em>.',
