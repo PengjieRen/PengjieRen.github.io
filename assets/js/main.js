@@ -1,9 +1,9 @@
-$(document).ready(function() {
+$(document).ready(function () {
   /* ======= Scrollspy ======= */
   $('body').scrollspy({ target: '#page-nav-wrapper', offset: 100 });
 
   /* ======= ScrollTo ======= */
-  $('.scrollto').on('click', function(e) {
+  $('.scrollto').on('click', function (e) {
     //store hash
     var target = this.hash;
 
@@ -14,7 +14,7 @@ $(document).ready(function() {
 
   /* ======= Fixed page nav when scrolled ======= */
 
-  $(window).on('scroll resize load', function() {
+  $(window).on('scroll resize load', function () {
     $('#page-nav-wrapper').removeClass('fixed');
 
     var scrollTop = $(this).scrollTop();
@@ -34,7 +34,9 @@ var list1 = $('#list1');
 var list2 = $('#list2');
 
 var publications = [
-  '<strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Evangelos Kanoulas, Christof Monz, Maarten de Rijke. Conversations with Search Engines. Transactions on Information Systems (TOIS), 2020. (accepted with minor revision)',
+  'Yangjun Zhang, <strong>Pengjie Ren<sup>*</sup></strong>, Maarten de Rijke. Detecting and Classifying Malevolent Dialogue Responses: Taxonomy, Data and Methodology. The Journal of the Association for Information Science and Technology (JASIST), 2020. (under review)',
+  'Phillip Lippe, <strong>Pengjie Ren<sup>*</sup></strong>, Hinda Haned, Bart Voorn, Maarten de Rijke. Diversifying Task-oriented Dialogue Response Generation with Prototype Guided Paraphrasing. IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), 2020. (under review)',
+  '<strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Evangelos Kanoulas, Christof Monz, Maarten de Rijke. Conversations with Search Engines: SERP-based Conversational Response Generation. Transactions on Information Systems (TOIS), 2020. (accepted with minor revision)',
   '<strong>Pengjie Ren</strong>, Yujie Lin, Muyang Ma, Zhumin Chen, Jun Ma, Maarten de Rijke. Parallel Split-Join Networks for Shared-account Cross-domain Sequential Recommendations. Transactions on Information Systems (TOIS), 2020. (under review)',
   'Wanyu Chen, <strong>Pengjie Ren</strong>, Fei Cai, Fei Sun, Maarten de Rijke. Improving End-to-End Sequential Recommendations with Intent-aware Diversification. The 29th ACM International Conference on Information and Knowledge Management (CIKM), 2020.',
   'Xiao Huang, <strong>Pengjie Ren</strong>, Zhaochun Ren, Fei Sun, Xiangnan He, Dawei Yin and Maarten de Rijke. Report on the International Workshop on Natural Language Processing for Recommendations (NLP4REC 2020) Workshop held at WSDM 2020. SIGIR Forum, 2020.',
