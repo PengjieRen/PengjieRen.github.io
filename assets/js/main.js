@@ -34,6 +34,7 @@ var list1 = $('#list1');
 var list2 = $('#list2');
 
 var publications = [
+  'Qintong Li, Hongshen Chen, Zhaochun Ren, <strong>Pengjie Ren</strong>, Zhaopeng Tu and Zhumin Chen. EmpDG: Multi-resolution Interactive Empathetic Dialogue Generation. The 28th International Conference on Computational Linguistics (COLING), 2020.',
   'Yangjun Zhang, <strong>Pengjie Ren<sup>*</sup></strong>, Maarten de Rijke. Detecting and Classifying Malevolent Dialogue Responses: Taxonomy, Data and Methodology. The Journal of the Association for Information Science and Technology (JASIST), 2020. (under review)',
   'Phillip Lippe, <strong>Pengjie Ren<sup>*</sup></strong>, Hinda Haned, Bart Voorn, Maarten de Rijke. Diversifying Task-oriented Dialogue Response Generation with Prototype Guided Paraphrasing. IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP), 2020. (under review)',
   '<strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Evangelos Kanoulas, Christof Monz, Maarten de Rijke. Conversations with Search Engines: SERP-based Conversational Response Generation. Transactions on Information Systems (TOIS), 2020. (accepted with minor revision)',
