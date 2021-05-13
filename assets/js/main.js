@@ -36,16 +36,16 @@ var list2 = $('#list2');
 var publications = [
   'Yangjun Zhang, <strong>Pengjie Ren<sup>*</sup></strong> and Maarten de Rijke. A Human-machine Collaborative Framework for Evaluating Malevolence in Dialogues. <em>The Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021)</em>, Online, August 1-6, 2021.',
   'Zhongkun Liu, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen, Zhaochun Ren, Maarten de Rijke and Ming Zhou. Learning to Ask Conversational Questions by Optimizing Levenshtein Distance. <em>The Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021)</em>, Online, August 1-6, 2021.',
+  'Yangjun Zhang, <strong>Pengjie Ren<sup>*</sup></strong>, Maarten de Rijke. A Taxonomy, Dataset and Benchmark for Detecting and Classifying Malevolent Dialogue Responses. <em>The Journal of the Association for Information Science and Technology (JASIST)</em>, 2020. (Accepted. To appear)',
   '<strong>Pengjie Ren</strong>, Zhongkun Liu, Xiaomeng Song, Hongtao Tian, Zhumin Chen, Zhaochun Ren and Maarten de Rijke. Wizard of Search Engine: Access to Information Through Conversations with Search Engines. <em>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2021.',
   'Chuan Meng, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen, Zhaochun Ren, Tengxiao Xi and Maarten de Rijke. Initiative-Aware Self-Supervised learning for Knowledge-Grounded Conversations. <em>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2021.',
   'Dongdong Li, Zhaochun Ren, <strong>Pengjie Ren</strong>, Zhumin Chen, Miao Fan, Jun Ma and Maarten de Rijke. Few-shot Variational Reasoning for Medical Dialogue Generation. <em>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2021.',
   'Zihan Wang, Hongye Song, Zhaochun Ren, <strong>Pengjie Ren</strong>, Zhumin Chen, Xiaozhong Liu, Hongsong Li and Maarten de Rijke. Cross-Domain Contract Element Extraction with a Bi-directional Feedback Clause-Element Relation Network. <em>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2021.',
-  'Weiwei Sun, Chuan Meng, Qi Meng, Zhaochun Ren, <strong>Pengjie Ren</strong>, Zhumin Chen and Maarten de Rijke. Conversations Powered by Cross-Lingual Knowledge. <em>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2021.',
+  'Weiwei Sun, Chuan Meng, Qi Meng, Zhaochun Ren, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen and Maarten de Rijke. Conversations Powered by Cross-Lingual Knowledge. <em>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2021.',
   'Weiwei Sun, Shuo Zhang, Krisztian Balog, Zhaochun Ren, <strong>Pengjie Ren</strong>, Zhumin Chen and Maarten de Rijke. Simulating User Satisfaction for the Evaluation of Task-oriented Dialogue Systems. <em>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2021.',
   'Jiahuan Pei, <strong>Pengjie Ren<sup>*</sup></strong> and Maarten de Rijke. A Cooperative Memory Network for Personalized Task-oriented Dialogue Systems with Incomplete User Profiles. <em>The Web Conference (WWW)</em>, 2021.',
   'Qiannan Cheng, Yujie Lin, Zhaochun Ren, <strong>Pengjie Ren</strong>, Zhumin Chen, Xiangyuan Liu and Maarten de Rijke. Long Short-Term Session Search with Joint Document Reranking and Next Query Prediction. <em>The Web Conference (WWW)</em>, 2021.',
   'Qintong Li, Hongshen Chen, Zhaochun Ren, <strong>Pengjie Ren</strong>, Zhaopeng Tu and Zhumin Chen. EmpDG: Multi-resolution Interactive Empathetic Dialogue Generation. <em>The 28th International Conference on Computational Linguistics (COLING)</em>, 2020.',
-  'Yangjun Zhang, <strong>Pengjie Ren<sup>*</sup></strong>, Maarten de Rijke. Detecting and Classifying Malevolent Dialogue Responses: Taxonomy, Data and Methodology. <em>The Journal of the Association for Information Science and Technology (JASIST)</em>, 2020. (under review)',
   'Phillip Lippe, <strong>Pengjie Ren<sup>*</sup></strong>, Hinda Haned, Bart Voorn, Maarten de Rijke. Diversifying Task-oriented Dialogue Response Generation with Prototype Guided Paraphrasing. <em>Natural Language Engineering</em>. (under review)',
   '<strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Evangelos Kanoulas, Christof Monz, Maarten de Rijke. Conversations with Search Engines: SERP-based Conversational Response Generation. <em>Transactions on Information Systems (TOIS)</em>, 2020. (to appear)',
   '<strong>Pengjie Ren</strong>, Yujie Lin, Muyang Ma, Zhumin Chen, Jun Ma, Maarten de Rijke. Parallel Split-Join Networks for Shared-account Cross-domain Sequential Recommendations. <em>Arxiv</em>, 2020',
@@ -92,7 +92,7 @@ var publications = [
 ];
 
 for (var i in publications) {
-  if (i < 10) list1.append('<li>' + publications[i] + '</li>');
+  if (i < 15) list1.append('<li>' + publications[i] + '</li>');
   else list2.append('<li>' + publications[i] + '</li>');
 }
 
