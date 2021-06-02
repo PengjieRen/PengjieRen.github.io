@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Sphere - Responsive website template for CV/Resume/Portfolio
  * Version: 1.0
  * Author: Xiaoying Riley at 3rd Wave Media
@@ -409,6 +409,11 @@ a.btn:hover {
 }
 .publication-list li {
   margin-bottom: 10px;
+}
+#highlights-section .publication-list li{
+  float: left;
+  width: 350px;
+  margin-left: 50px;
 }
 .publication-list.reviewing li {
   float: left;
