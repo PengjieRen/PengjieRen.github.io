@@ -34,6 +34,7 @@ var list1 = $('#list1');
 var list2 = $('#list2');
 
 var publications = [
+    'Muyang Ma, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma, Maarten de Rijke. Improving Transformer-based Sequential Recommenders through Preference Editing. <em>arXiv</em>, 2021.',
     '<strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Evangelos Kanoulas, Christof Monz, Maarten de Rijke. Conversations with Search Engines: SERP-based Conversational Response Generation. <em>Transactions on Information Systems (TOIS)</em>, 2021. (to appear)',
     'Wanyu Chen, <strong>Pengjie Ren</strong>, Fei Cai, Fei Sun, Maarten de Rijke. Multi-interest Diversification for End-to-end Sequential Recommendation. <em>Transactions on Information Systems (TOIS)</em>, 2021. (to appear)',
     'Yangjun Zhang, <strong>Pengjie Ren<sup>*</sup></strong> and Maarten de Rijke. A Human-machine Collaborative Framework for Evaluating Malevolence in Dialogues. <em>The Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021)</em>, Online, August 1-6, 2021.',
