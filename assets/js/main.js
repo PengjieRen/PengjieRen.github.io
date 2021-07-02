@@ -34,6 +34,7 @@ var list1 = $('#list1');
 var list2 = $('#list2');
 
 var publications = [
+    'Shanshan Wang, <strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Qiang Yan, Evangelos Kanoulas, Maarten de Rijke. Few-Shot Electronic Health Record Coding through Graph Contrastive Learning. <em>arXiv</em>, 2021.',
     'Muyang Ma, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma, Maarten de Rijke. Improving Transformer-based Sequential Recommenders through Preference Editing. <em>arXiv</em>, 2021.',
     '<strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Evangelos Kanoulas, Christof Monz, Maarten de Rijke. Conversations with Search Engines: SERP-based Conversational Response Generation. <em>Transactions on Information Systems (TOIS)</em>, 2021. (to appear)',
     'Wanyu Chen, <strong>Pengjie Ren</strong>, Fei Cai, Fei Sun, Maarten de Rijke. Multi-interest Diversification for End-to-end Sequential Recommendation. <em>Transactions on Information Systems (TOIS)</em>, 2021. (to appear)',
