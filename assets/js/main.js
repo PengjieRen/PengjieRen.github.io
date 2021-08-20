@@ -34,13 +34,15 @@ var list1 = $('#list1');
 var list2 = $('#list2');
 
 var publications = [
+    'Muyang Ma, <strong>Pengjie Ren<em>*</em></strong>, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma, Maarten de Rijke. Improving Transformer-based Sequential Recommenders through Preference Editing. Transactions on Information Systems (TOIS), 2021.',
+    '<strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Evangelos Kanoulas, Christof Monz, Maarten de Rijke. Conversations with Search Engines: SERP-based Conversational Response Generation. <em>Transactions on Information Systems (TOIS)</em>, 2021.',
+    'Wenchao Sun, Muyang Ma, <strong>Pengjie Ren<sup>*</sup></strong>, Yujie Lin, Zhumin Chen, Jun Ma, Maarten de Rijke. Parallel Split-Join Networks for Shared-account Cross-domain Sequential Recommendations. <em>IEEE Transactions on Knowledge and Data Engineering (TKDE)</em>, 2021 (under review)',
+    'Yifan Chen, Yang Wang, <strong>Pengjie Ren</strong>, Meng Wang, Maarten de Rijke. Bayesian Feature Interaction Selection for Factorization Machines. <em>The journal of Artificial Intelligence (AIJ)</em>, 2021. ',
     'Shanshan Wang, <strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Qiang Yan, Evangelos Kanoulas, Maarten de Rijke. Few-Shot Electronic Health Record Coding through Graph Contrastive Learning. <em>arXiv</em>, 2021.',
-    'Muyang Ma, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma, Maarten de Rijke. Improving Transformer-based Sequential Recommenders through Preference Editing. <em>arXiv</em>, 2021.',
-    '<strong>Pengjie Ren</strong>, Zhumin Chen, Zhaochun Ren, Evangelos Kanoulas, Christof Monz, Maarten de Rijke. Conversations with Search Engines: SERP-based Conversational Response Generation. <em>Transactions on Information Systems (TOIS)</em>, 2021. (to appear)',
-    'Wanyu Chen, <strong>Pengjie Ren</strong>, Fei Cai, Fei Sun, Maarten de Rijke. Multi-interest Diversification for End-to-end Sequential Recommendation. <em>Transactions on Information Systems (TOIS)</em>, 2021. (to appear)',
+    'Wanyu Chen, <strong>Pengjie Ren</strong>, Fei Cai, Fei Sun, Maarten de Rijke. Multi-interest Diversification for End-to-end Sequential Recommendation. <em>Transactions on Information Systems (TOIS)</em>, 2021.',
     'Yangjun Zhang, <strong>Pengjie Ren<sup>*</sup></strong> and Maarten de Rijke. A Human-machine Collaborative Framework for Evaluating Malevolence in Dialogues. <em>The Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021)</em>, Online, August 1-6, 2021.',
     'Zhongkun Liu, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen, Zhaochun Ren, Maarten de Rijke and Ming Zhou. Learning to Ask Conversational Questions by Optimizing Levenshtein Distance. <em>The Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021)</em>, Online, August 1-6, 2021.',
-    'Yangjun Zhang, <strong>Pengjie Ren<sup>*</sup></strong>, Maarten de Rijke. A Taxonomy, Dataset and Benchmark for Detecting and Classifying Malevolent Dialogue Responses. <em>The Journal of the Association for Information Science and Technology (JASIST)</em>, 2021. (Accepted. To appear)',
+    'Yangjun Zhang, <strong>Pengjie Ren<sup>*</sup></strong>, Maarten de Rijke. A Taxonomy, Dataset and Benchmark for Detecting and Classifying Malevolent Dialogue Responses. <em>The Journal of the Association for Information Science and Technology (JASIST)</em>, 2021.',
     '<strong>Pengjie Ren</strong>, Zhongkun Liu, Xiaomeng Song, Hongtao Tian, Zhumin Chen, Zhaochun Ren and Maarten de Rijke. Wizard of Search Engine: Access to Information Through Conversations with Search Engines. <em>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2021.',
     'Chuan Meng, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen, Zhaochun Ren, Tengxiao Xi and Maarten de Rijke. Initiative-Aware Self-Supervised learning for Knowledge-Grounded Conversations. <em>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2021.',
     'Dongdong Li, Zhaochun Ren, <strong>Pengjie Ren</strong>, Zhumin Chen, Miao Fan, Jun Ma and Maarten de Rijke. Few-shot Variational Reasoning for Medical Dialogue Generation. <em>The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2021.',
@@ -51,10 +53,8 @@ var publications = [
     'Qiannan Cheng, Yujie Lin, Zhaochun Ren, <strong>Pengjie Ren</strong>, Zhumin Chen, Xiangyuan Liu and Maarten de Rijke. Long Short-Term Session Search with Joint Document Reranking and Next Query Prediction. <em>The Web Conference (WWW)</em>, 2021.',
     'Qintong Li, Hongshen Chen, Zhaochun Ren, <strong>Pengjie Ren</strong>, Zhaopeng Tu and Zhumin Chen. EmpDG: Multi-resolution Interactive Empathetic Dialogue Generation. <em>The 28th International Conference on Computational Linguistics (COLING)</em>, 2020.',
     'Phillip Lippe, <strong>Pengjie Ren<sup>*</sup></strong>, Hinda Haned, Bart Voorn, Maarten de Rijke. Diversifying Task-oriented Dialogue Response Generation with Prototype Guided Paraphrasing. <em>Natural Language Engineering</em>. (under review)',
-    '<strong>Pengjie Ren</strong>, Yujie Lin, Muyang Ma, Zhumin Chen, Jun Ma, Maarten de Rijke. Parallel Split-Join Networks for Shared-account Cross-domain Sequential Recommendations. <em>Arxiv</em>, 2020',
     'Wanyu Chen, <strong>Pengjie Ren</strong>, Fei Cai, Fei Sun, Maarten de Rijke. Improving End-to-End Sequential Recommendations with Intent-aware Diversification. <em>The 29th ACM International Conference on Information and Knowledge Management (CIKM)</em>, 2020.',
     'Xiao Huang, <strong>Pengjie Ren</strong>, Zhaochun Ren, Fei Sun, Xiangnan He, Dawei Yin and Maarten de Rijke. Report on the International Workshop on Natural Language Processing for Recommendations (NLP4REC 2020) Workshop held at WSDM 2020. SIGIR Forum, 2020.',
-    'Yifan Chen, Yang Wang, <strong>Pengjie Ren</strong>, Meng Wang, Maarten de Rijke. Bayesian Feature Interaction Selection for Factorization Machines. <em>The journal of Artificial Intelligence (AIJ)</em>, 2020. (under review)',
     'Hongshen Chen, Zhaochun Ren, <strong>Pengjie Ren</strong>, Dawei Yin and Xiaodong He.  AIIS: The SIGIR 2020 Workshop on Applied Interactive Information Systems (AIIS 2020).',
     'Yujie Lin, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen, Zhaochun Ren, Dongxiao Yu<sup>*</sup>, Jun Ma, Maarten de Rijke and Xiuzhen Cheng. Meta Matrix Factorization for Federated Rating Predictions. <em> The 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2020.',
     'Shanshan Wang, <strong>Pengjie Ren<sup>*</sup></strong>, Zhumin Chen<sup>*</sup>, Zhaochun Ren, Jian-Yun Nie, Jun Ma and Maarten de Rijke. Coding Electronic Health Records with Adversarial Reinforcement Path Generation. <em> The 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2020.',
@@ -116,3 +116,139 @@ function togglePublication(btn) {
         );
     }
 }
+
+
+function parseList() {
+    let papers = []
+    list1.children('li').each((index, ele) => {
+        let text = $(ele).text()
+        if (text.indexOf('under review') >= 0 || text.toLowerCase().indexOf('arxiv') >= 0)
+            return
+        let paper = buildPaperData(text)
+        if (!paper.level) return;
+        papers.push(paper)
+    })
+    list2.children('li').each((index, ele) => {
+        let text = $(ele).text()
+        if (text.indexOf('under review') >= 0 || text.toLowerCase().indexOf('arxiv') >= 0)
+            return
+        let paper = buildPaperData(text)
+        if (!paper.level) return;
+        papers.push(paper)
+    })
+    comparePaper(papers)
+}
+
+function comparePaper(paperList) {
+    let copyList = [...paperList]
+
+    //一作a/b
+    let list1 = copyList.filter((paper, index) => {
+        if (!paper)
+            return false
+        let flag = paper.levelIndex < 3 && paper.index == 1 && !paper.star && !paper.coFirst
+        flag && (delete copyList[index])
+        return flag
+    })
+
+    //共1 a/b
+    let list2 = copyList.filter((paper, index) => {
+        if (!paper)
+            return false
+        let flag = paper.levelIndex < 3 && paper.coFirst
+        flag && (delete copyList[index])
+        return flag
+    })
+
+    //通讯，共通讯a/b
+    let list3 = copyList.filter((paper, index) => {
+        if (!paper)
+            return false
+        let flag = paper.levelIndex < 3 && paper.star
+        flag && (delete copyList[index])
+        return flag
+    })
+
+    //普通a/b
+    let list4 = copyList.filter((paper, index) => {
+        if (!paper)
+            return false
+        let flag = paper.levelIndex < 3
+        flag && (delete copyList[index])
+        return flag
+    })
+
+    //c
+    let list5 = copyList.filter((paper, index) => {
+        if (!paper)
+            return false
+        let flag = paper.levelIndex == 3
+        flag && (delete copyList[index])
+        return flag
+    })
+
+}
+
+function compareYear(paper1, paper2) {
+    return paper1.year - paper2.year
+}
+
+function compareC(paper1, paper2) {
+    let indexFlag = paper1.index - paper2.index
+    if (indexFlag !== 0)
+        return indexFlag
+
+}
+
+
+function buildPaperData(text) {
+    let conferenceName2Level = {
+        'TOIS': 'A',
+        'ACL': 'A',
+        'JASIST': 'B',
+        'SIGIR': 'A',
+        'WWW': 'A',
+        'COLING': 'B',
+        'Neurocomputing': 'C',
+        'Natural Language Engineering': 'C',
+        'CIKM': 'B',
+        'ECAI': 'B',
+        'AAAI': 'A',
+        'TKDE': 'A',
+        'Computer Networks': 'B',
+        'EMNLP': 'B',
+        'JCST': 'B',
+        'ECIR': 'C',
+        'Information Retrieval Journal': 'C',
+        'APWeb': 'C',
+        'Natural Language Processing and Chinese Computing': 'C'
+    }
+    let paper = {}
+    paper.text = text
+    let textList = paper.text.split('.')
+    paper.authors = textList[0].split(',')
+    paper.title = textList[1]
+    paper.conference = textList[2]
+    let authorIndex = paper.authors.findIndex((author) => {
+        return author.indexOf('Pengjie Ren') >= 0
+    })
+    paper.index = authorIndex + 1
+    paper.star = paper.authors[authorIndex].indexOf('*') >= 0
+    paper.coFirst = paper.authors[authorIndex].indexOf('#') >= 0
+    for (let i = 2013; i < 2022; i++) {
+        if (textList[2].indexOf(i + '') >= 0) {
+            paper.year = i + ''
+            break
+        }
+    }
+    for (let conferenceName in conferenceName2Level) {
+        if (paper.text.indexOf(conferenceName) >= 0) {
+            paper.level = conferenceName2Level[conferenceName]
+            paper.levelIndex = paper.level === 'A' ? 1 : (paper.level === 'B' ? 2 : 3)
+            break
+        }
+    }
+    return paper
+}
+
+// parseList()
