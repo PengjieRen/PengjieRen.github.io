@@ -1,5 +1,54 @@
 [
   {
+    "text": "Muyang Ma, Pengjie Ren, Zhumin Chen, Zhaochun Ren, Lifan Zhao, Peiyu Liu, Jun Ma, Maarten de Rijke. MIFN: Mixed Information Flow for Cross-domain Sequential Recommendations. Transactions on Knowledge Discovery from Data (TKDD), 2021.",
+    "authors": [
+      "Muyang Ma",
+      "Pengjie Ren",
+      "Zhumin Chen",
+      "Zhaochun Ren",
+      "Lifan Zhao",
+      "Peiyu Liu",
+      "Jun Ma",
+      "Maarten de Rijke"
+    ],
+    "title": "MIFN: Mixed Information Flow for Cross-domain Sequential Recommendations",
+    "conference": "Transactions on Knowledge Discovery from Data (TKDD), 2021",
+    "authorIndex": 2,
+    "star": false,
+    "coFirst": false,
+    "year": "2021",
+    "level": "B",
+    "levelIndex": 2,
+    "link": "https://arxiv.org/pdf/2012.00485v3.pdf",
+    "underReview": false,
+    "comment": null,
+    "coStar": false
+  },
+  {
+    "text": "Minxing Zhang, Zhaochun Ren, Zihan Wang, Pengjie Ren, Zhumin Chen, Pengfei Hu, Yang Zhang. Membership Inference Attacks Against Recommender Systems. The ACM Conference on Computer and Communications Security (CCS), 2021.",
+    "authors": [
+      "Minxing Zhang",
+      "Zhaochun Ren",
+      "Zihan Wang",
+      "Pengjie Ren",
+      "Zhumin Chen",
+      "Pengfei Hu",
+      "Yang Zhang"
+    ],
+    "title": "Membership Inference Attacks Against Recommender Systems",
+    "conference": "The ACM Conference on Computer and Communications Security (CCS), 2021",
+    "authorIndex": 4,
+    "star": false,
+    "coFirst": false,
+    "year": "2021",
+    "level": "A",
+    "levelIndex": 1,
+    "link": "https://arxiv.org/pdf/2109.08045.pdf",
+    "underReview": false,
+    "comment": null,
+    "coStar": false
+  },
+  {
     "text": "Muyang Ma, Pengjie Ren*, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma, Maarten de Rijke. Improving Transformer-based Sequential Recommenders through Preference Editing. Transactions on Information Systems (TOIS), 2021. (under review)",
     "authors": [
       "Muyang Ma",
@@ -49,7 +98,7 @@
     "coStar": false
   },
   {
-    "text": "Wenchao Sun, Muyang Ma, Pengjie Ren*, Yujie Lin, Zhumin Chen, Jun Ma, Maarten de Rijke. Parallel Split-Join Networks for Shared-account Cross-domain Sequential Recommendations. IEEE Transactions on Knowledge and Data Engineering (TKDE), 2021. (under review)",
+    "text": "Wenchao Sun, Muyang Ma, Pengjie Ren*, Yujie Lin, Zhumin Chen, Jun Ma, Maarten de Rijke. Parallel Split-Join Networks for Shared-account Cross-domain Sequential Recommendations. IEEE Transactions on Knowledge and Data Engineering (TKDE), 2021.",
     "authors": [
       "Wenchao Sun",
       "Muyang Ma",
@@ -68,7 +117,7 @@
     "level": "A",
     "levelIndex": 1,
     "link": "https://arxiv.org/pdf/1910.02448.pdf",
-    "underReview": true,
+    "underReview": false,
     "comment": null,
     "coStar": false
   },

@@ -74,6 +74,9 @@ $.getJSON('papers.json', (data) => {
         if (i < 15) list1.append('<li>' + htmls[i] + '</li>');
         else list2.append('<li>' + htmls[i] + '</li>');
     }
+
+    let sortedList = data.sort(comparePaper)
+    formatPapers(sortedList)
 })
 
 function togglePublication(btn) {
@@ -99,17 +102,26 @@ function formatPapers(papers) {
     for (let i in papers) {
         let paper = papers[i]
         let formattedText = paper.text
-        formattedText = formattedText.replace(/\s+/g, ' ')
+        formattedText = formattedText.replace(/\s+/g, ' ')// 替换为单个空格
         formattedText += '（CCF-' + paper.level + '）'
-        formattedText = formattedText.replaceAll('*,', '（通讯）,')
-        if (paper.index === 1 && !paper.coFirst) {
-            formattedText = formattedText.replaceAll('Pengjie Ren,', 'Pengjie Ren（第一）,')
+        // formattedText = formattedText.replaceAll('*,', '（通讯作者）,')
+
+        if (paper.authorIndex === 1 && !paper.coFirst) {
+            formattedText = formattedText.replaceAll('Pengjie Ren,', 'Pengjie Ren（独立一作）,')
         }
         if (paper.coFirst) {
-            formattedText = formattedText.replaceAll('#,', '（共一）,')
+            formattedText = formattedText.replaceAll('#,', '（共同一作）,')
         }
+        if (paper.star && paper.coStar) {
+            formattedText = formattedText.replaceAll('*,', '（共同通讯）,')
+        }
+        if (paper.star && !paper.coStar) {
+            formattedText = formattedText.replaceAll('*,', '（独立通讯）,')
+        }
+
         formatted += formattedText + '\r\n'
     }
+    console.log(formatted)
 }
 
 
