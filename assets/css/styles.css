@@ -412,8 +412,8 @@ a.btn:hover {
 }
 #highlights-section .publication-list li{
   float: left;
-  width: 350px;
-  margin-left: 50px;
+  width: 400px;
+  margin-left: 20px;
 }
 .publication-list.reviewing li {
   float: left;
