@@ -1,5 +1,27 @@
 [
   {
+    "text": "Yangjun Zhang, Pengjie Ren*, Wentao Deng, Zhumin Chen, Maarten de Rijke. Improving Multi-label Malevolence Detection in Dialogues through Multi-faceted Label Correlation Enhancement. The 60th Annual Meeting of the Association for Computational Linguistics (ACL), Dublin, Ireland, 22nd - 27th May 2022.",
+    "authors": [
+      "Yangjun Zhang",
+      "Pengjie Ren",
+      "Wentao Deng",
+      "Zhumin Chen",
+      "Maarten de Rijke"
+    ],
+    "title": "Improving Multi-label Malevolence Detection in Dialogues through Multi-faceted Label Correlation Enhancement",
+    "conference": "The 60th Annual Meeting of the Association for Computational Linguistics (ACL), Dublin, Ireland, 22nd - 27th May 2022.",
+    "authorIndex": 2,
+    "star": true,
+    "coFirst": false,
+    "year": "2022",
+    "level": "A",
+    "levelIndex": 1,
+    "link": null,
+    "underReview": false,
+    "comment": null,
+    "coStar": false
+  },
+  {
     "text": "Muyang Ma, Pengjie Ren, Zhumin Chen, Zhaochun Ren, Lifan Zhao, Peiyu Liu, Jun Ma, Maarten de Rijke. MIFN: Mixed Information Flow for Cross-domain Sequential Recommendations. Transactions on Knowledge Discovery from Data (TKDD), 2021.",
     "authors": [
       "Muyang Ma",
