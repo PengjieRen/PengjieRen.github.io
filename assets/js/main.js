@@ -47,6 +47,12 @@ $.getJSON('papers.json', (data) => {
                 authorHtml = author
 
             if (author.indexOf('Pengjie Ren') >= 0) {
+                if (author.indexOf('*') < 0 && paper.star) {
+                    authorHtml = authorHtml + '<em>*</em>'
+                }
+                if (author.indexOf('#') < 0 && paper.coFirst) {
+                    authorHtml = authorHtml + '<em>#</em>'
+                }
                 authorHtml = "<strong>" + authorHtml + "</strong>"
             }
 
