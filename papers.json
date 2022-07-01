@@ -23,10 +23,10 @@
     "coStar": false
   },
   {
-    "text": "Zhi Tian, Zhaochun Ren, Dongdong Li, Pengjie Ren, Liu Yang, Xin Xin, Huasheng Liang, Maarten de Rijke and Zhumin Chen. Variational Reasoning about User Preferences for Conversational Recommendation. The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Madrid, July 11-15, 2022.",
+    "text": "Zhaochun Ren, Zhi Tian, Dongdong Li, Pengjie Ren, Liu Yang, Xin Xin, Huasheng Liang, Maarten de Rijke and Zhumin Chen. Variational Reasoning about User Preferences for Conversational Recommendation. The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Madrid, July 11-15, 2022.",
     "authors": [
-      "Zhi Tian",
       "Zhaochun Ren",
+      "Zhi Tian",
       "Dongdong Li",
       "Pengjie Ren",
       "Liu Yang",
