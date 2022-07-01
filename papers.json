@@ -138,7 +138,7 @@
     "year": "2022",
     "level": "A",
     "levelIndex": 1,
-    "link": null,
+    "link": "https://aclanthology.org/2022.acl-long.248/",
     "underReview": false,
     "comment": null,
     "coStar": false
@@ -228,7 +228,7 @@
       "Evangelos Kanoulas",
       "Maarten de Rijke"
     ],
-    "title": "Few-Shot Electronic Health Record Coding through Graph Contrastive Learning",
+      "title": "Few-Shot Electronic Health Record Coding through Graph Contrastive Learning",
     "conference": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2021",
     "authorIndex": 2,
     "star": false,
@@ -260,7 +260,7 @@
     "year": "2021",
     "level": "A",
     "levelIndex": 1,
-    "link": "https://arxiv.org/pdf/1910.02448.pdf",
+    "link": "https://ieeexplore.ieee.org/document/9647967",
     "underReview": false,
     "comment": null,
     "coStar": false
@@ -325,8 +325,8 @@
     "year": "2021",
     "level": "A",
     "levelIndex": 1,
-    "link": null,
-    "comment": "找不到pdf",
+    "link": "https://dl.acm.org/doi/10.1145/3475768",
+    "comment": null,
     "coStar": false
   },
   {
