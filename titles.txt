@@ -1,0 +1,58 @@
+SCI:
+Conversations with Search Engines: SERP-based Conversational Response Generation
+Sentence Relations for Extractive Summarization with Deep Neural Networks
+Detecting Temporal Patterns of User Queries
+Explainable Outfit Recommendation with Joint Outfit Matching and Comment Generation
+Improving legal judgment prediction through reinforced criminal element extraction
+MIFN: Mixed Information Flow for Cross-domain Sequential Recommendations
+A Taxonomy, Dataset and Benchmark for Detecting and Classifying Malevolent Dialogue Responses
+Bayesian Feature Interaction Selection for Factorization Machines
+Multi-interest Diversification for End-to-end Sequential Recommendation
+Multi-resolution representation with recurrent neural networks application for streaming time series in IoT
+User Session Level Diverse Reranking of Search Results
+Mining and Ranking Users' Intents behind Queries
+
+
+
+
+======================================================================================================================================
+EI:
+Wizard of Search Engine: Access to Information through Conversations with Search Engines
+Thinking Globally, Acting Locally: Distantly Supervised Global-to-Local Knowledge Selection for Background Based Conversation
+RepeatNet: A Repeat Aware Neural Recommendation Machine for Session-based Recommendation
+Leveraging Contextual Sentence Relations for Extractive Summarization Using a Neural Attention Model
+A Redundancy-Aware Sentence Regression Framework for Extractive Summarization
+Π-Net: A parallel information-sharing network for shared-account cross-domain sequential recommendations
+Improving Outfit Recommendation with Co-supervision of Fashion Generation
+An Attentive Interaction Network for Context-aware Recommendations
+Parallel Split-Join Networks for Shared Account Cross-domain Sequential Recommendations
+A Human-machine Collaborative Framework for Evaluating Malevolence in Dialogues
+Learning to Ask Conversational Questions by Optimizing Levenshtein Distance
+Initiative-Aware Self-Supervised learning for Knowledge-Grounded Conversations
+Conversations Powered by Cross-Lingual Knowledge
+A Cooperative Memory Network for Personalized Task-oriented Dialogue Systems with Incomplete User Profiles
+Meta Matrix Factorization for Federated Rating Predictions
+Coding Electronic Health Records with Adversarial Reinforcement Path Generation
+DukeNet: A Dual Knowledge Interaction Network for Knowledge-Grounded Conversation
+RefNet: A Reference-aware Network for Background Based Conversation
+Membership Inference Attacks Against Recommender Systems
+Semi-Supervised Variational Reasoning for Medical Dialogue Generation
+Cross-Domain Contract Element Extraction with a Bi-directional Feedback Clause-Element Relation Network
+Simulating User Satisfaction for the Evaluation of Task-oriented Dialogue Systems
+Long short-term session search: Joint personalized reranking and next query prediction
+Query Resolution for Conversational Search with Limited Supervision
+Improving End-to-End Sequential Recommendations with Intent-aware Diversification
+A Neural Topical Expansion Framework for Unstructured Persona-oriented Dialogue Generation
+Retrospective and Prospective Mixture-of-Generators for Task-oriented Dialogue Response Generation
+Bayesian Personalized Feature Interaction Selection for Factorization Machines
+A Collaborative Session-based Recommendation Approach with Parallel Memory Modules
+Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss
+Order-free Medicine Combination Prediction With Graph Convolutional Reinforcement Learning
+Neural Attentive Session-based Recommendation
+Entity Linking for Queries by Searching Wikipedia Sentences
+Learning Similarity Functions for Urban Events Detection by Mining Hotline Phone Records
+Understanding Temporal Intent of User Query Based on Time-Based Query Classification
+Supervised Local Contexts Aggregation for Effective Session Search
+Sleep Quality Evaluation of Active Microblog Users
+Analysis of Subjective City Happiness Index Based on Large Scale Microblog Data
+Social Media as Sensor in Real World: Geolocate User with Microblog

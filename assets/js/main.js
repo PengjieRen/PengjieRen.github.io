@@ -81,8 +81,83 @@ $.getJSON('papers.json', (data) => {
         else list2.append('<li>' + htmls[i] + '</li>');
     }
 
-    let sortedList = data.sort(comparePaper)
-    formatPapers(sortedList)
+    // let sortedList = data.sort(compareSci)
+    // $.getJSON('sci.json', (data) => {
+    //     for (let i in data) {
+    //         for (let j in sortedList) {
+    //             if (data[i].link && sortedList[j].link && data[i].link === sortedList[j].link) {
+    //                 sortedList[j].fileName = data[i].fileName
+    //             }
+    //         }
+    //     }
+    //
+    //     $.getJSON('ei.json', (data) => {
+    //         for (let i in data) {
+    //             for (let j in sortedList) {
+    //                 if (data[i].link && sortedList[j].link && data[i].link === sortedList[j].link) {
+    //                     sortedList[j].fileName = data[i].fileName
+    //                 }
+    //             }
+    //         }
+    //
+    //         console.log(JSON.stringify(sortedList))
+    //     })
+    // })
+
+    // let firstCount = 0
+    // let coFirstCount = 0
+    // let starCount = 0
+    // let coStarCount = 0
+    // let aLevelCount = 0
+    // let sciList = []
+    // let eiList = []
+    // let cpciList = []
+    // let otherList = []
+    // for (let i in sortedList) {
+    //     let paperItem = sortedList[i]
+    //     if (paperItem.authorIndex === 1)
+    //         firstCount++
+    //     if (paperItem.coFirst)
+    //         coFirstCount++
+    //     if (paperItem.star)
+    //         starCount++
+    //     if (paperItem.coStar)
+    //         coStarCount++
+    //     if (paperItem.levelIndex === 1)
+    //         aLevelCount++
+    //     if (paperItem.workshop)
+    //         continue
+    //     if (paperItem.sci)
+    //         sciList.push(paperItem)
+    //     else if (paperItem.ei)
+    //         eiList.push(paperItem)
+    //     else if (paperItem.cpci)
+    //         cpciList.push(paperItem)
+    //     else if (paperItem.link)
+    //         otherList.push(paperItem)
+    // }
+
+    // sciList=sciList.sort(comparePaper)
+    // console.log('sciList', JSON.stringify(sciList))
+
+    // eiList = eiList.sort(comparePaper)
+    // console.log('eiList', JSON.stringify(eiList))
+
+    // otherList = otherList.sort(comparePaper)
+    // console.log('otherList', JSON.stringify(otherList))
+
+    // $.getJSON('otherList.json', (data) => {
+    //     for (let i in data) {
+    //         let item = data[i]
+    //         let order = (i * 1) + 1
+    //         item.fileName = 'other-' + order + '.pdf'
+    //     }
+    //     console.log(JSON.stringify(data))
+    // })
+
+    // formatPapers(sortedList)
+
+
 })
 
 function togglePublication(btn) {
@@ -147,7 +222,7 @@ function compareAuthor(paper1, paper2) {
             return 2
         if (paper.star && !paper.coStar)
             return 3
-        if (paper.star && paper.coStar)
+        if (paper.coStar)
             return 4
         return 5
     }
@@ -177,72 +252,55 @@ function comparePaper(paper1, paper2) {
 
 }
 
+// 返回值paper1在前：-1，paper2在前1，相等0，SCI的优先排
+function compareSci(paper1, paper2) {
+    //SCI一作（1），SCI共一（1.5），SCI通讯（2），SCI共同通讯（2.5）
+    // CCF A一作（3），CCF A共一（3.5），CCF A通讯（4），CCF A共同通讯（4.5）
+    // SCI普通作者（5）
+    // CCF B一作（6），CCF B共一（6.5），CCF B通讯（7），CCF B共同通讯（7.5）
+    // 其他（8）
+    let scorePaperBySCIOrALevel = (paper) => {
+        // sci 一作、通讯
+        if (paper.sci && paper.authorIndex == 1 && !paper.coFirst)
+            return 1
+        if (paper.sci && paper.coFirst)
+            return 1.5
+        if (paper.sci && paper.star && !paper.coStar)
+            return 2
+        if (paper.sci && paper.coStar)
+            return 2.5
 
-function buildPaperData(text) {
-    // console.log(text)
-    let conferenceName2Level = {
-        'AIJ': 'A',
-        'TOIS': 'A',
-        'ACL': 'A',
-        'JASIST': 'B',
-        'SIGIR': 'A',
-        'WWW': 'A',
-        'COLING': 'B',
-        'Neurocomputing': 'C',
-        'Natural Language Engineering': 'C',
-        'CIKM': 'B',
-        'ECAI': 'B',
-        'AAAI': 'A',
-        'TKDE': 'A',
-        'Computer Networks': 'B',
-        'EMNLP': 'B',
-        'JCST': 'B',
-        'ECIR': 'C',
-        'Information Retrieval Journal': 'C',
-        'APWeb': 'C',
-        'Natural Language Processing and Chinese Computing': 'C'
-    }
-    let paper = {}
-    paper.text = text
-    let textList = paper.text.split('.')
-    paper.authors = textList[0].split(',')
-    paper.authors.forEach((author, index) => {
-        paper.authors[index] = author.trim()
-    })
-    if (paper.authors[paper.authors.length - 1].startsWith("and")) {
-        let originAuthor = paper.authors[paper.authors.length - 1]
-        paper.authors[paper.authors.length - 1] = originAuthor.slice(3, originAuthor.length).trim()
-    }
-    if (paper.authors[paper.authors.length - 1].indexOf(" and ") >= 0) {
-        let originAuthor = paper.authors[paper.authors.length - 1]
-        let list = originAuthor.split(" and ")
-        paper.authors[paper.authors.length - 1] = list[0]
-        paper.authors.push(list[1])
-    }
+        // ccf a 一作、通讯
+        if (paper.levelIndex == 1 && paper.authorIndex == 1 && !paper.coFirst)
+            return 3
+        if (paper.levelIndex == 1 && paper.coFirst)
+            return 3.5
+        if (paper.levelIndex == 1 && paper.star && !paper.coStar)
+            return 4
+        if (paper.levelIndex == 1 && paper.coStar)
+            return 4.5
 
-    paper.title = textList[1].trim()
-    paper.conference = textList[2].trim()
-    let authorIndex = paper.authors.findIndex((author) => {
-        return author.indexOf('Pengjie Ren') >= 0
-    })
-    paper.authorIndex = authorIndex + 1
-    paper.star = paper.authors[authorIndex].indexOf('*') >= 0
-    paper.coStar = paper.star && text.split('*').length > 2
-    paper.coFirst = paper.authors[authorIndex].indexOf('#') >= 0
-    for (let i = 2013; i < 2022; i++) {
-        if (textList[2].indexOf(i + '') >= 0) {
-            paper.year = i + ''
-            break
-        }
+        // sci普通
+        if (paper.sci)
+            return 5
+
+        // ccf b
+        if (paper.levelIndex == 2 && paper.authorIndex == 1 && !paper.coFirst)
+            return 6
+        if (paper.levelIndex == 2 && paper.coFirst)
+            return 6.5
+        if (paper.levelIndex == 2 && paper.star && !paper.coStar)
+            return 7
+        if (paper.levelIndex == 2 && paper.coStar)
+            return 7.5
+
+        return 8
     }
-    for (let conferenceName in conferenceName2Level) {
-        if (paper.text.indexOf(conferenceName) >= 0) {
-            paper.level = conferenceName2Level[conferenceName]
-            paper.levelIndex = paper.level === 'A' ? 1 : (paper.level === 'B' ? 2 : 3)
-            break
-        }
-    }
-    return paper
+    let paper1Score = scorePaperBySCIOrALevel(paper1)
+    let paper2Score = scorePaperBySCIOrALevel(paper2)
+
+    if (paper1Score != paper2Score)
+        return paper1Score - paper2Score
+    else
+        return comparePaper(paper1, paper2)
 }
-
-// parseList()

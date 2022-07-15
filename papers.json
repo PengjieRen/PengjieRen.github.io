@@ -96,7 +96,9 @@
     "link": null,
     "underReview": false,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "ei": true,
+    "arXiv": true
   },
   {
     "text": "Jie Zou, Evangelos Kanoulas, Pengjie Ren, Zhaochun Ren, Aixin Sun and Cheng Long. Improving Conversational Recommender Systems via Transformer-based Sequential Modelling. The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Madrid, July 11-15, 2022.",
@@ -144,6 +146,33 @@
     "coStar": false
   },
   {
+    "text": "Yougang Lyu, Zihan Wang, Zhaochun Ren, Pengjie Ren, Zhumin Chen, Xiaozhong Liu, Yujun Li, Hongsong Li and Hongye Song. MIFN: Mixed Information Flow for Cross-domain Sequential Recommendations. Transactions on Knowledge Discovery from Data (TKDD), 2021.",
+    "authors": [
+      "Yougang Lyu",
+      "Zhaochun Ren",
+      "Pengjie Ren",
+      "Zhumin Chen",
+      "Xiaozhong Liu",
+      "Hongsong Li",
+      "Hongye Song"
+    ],
+    "title": "Improving legal judgment prediction through reinforced criminal element extraction",
+    "conference": "Information Processing and Management (IPM), 2022",
+    "authorIndex": 3,
+    "star": true,
+    "coFirst": false,
+    "year": "2022",
+    "level": "B",
+    "levelIndex": 2,
+    "link": "https://doi.org/10.1016/j.ipm.2021.102780",
+    "underReview": false,
+    "comment": null,
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
+  },
+  {
     "text": "Muyang Ma, Pengjie Ren*, Zhumin Chen, Zhaochun Ren, Lifan Zhao, Peiyu Liu, Jun Ma, Maarten de Rijke. MIFN: Mixed Information Flow for Cross-domain Sequential Recommendations. Transactions on Knowledge Discovery from Data (TKDD), 2021.",
     "authors": [
       "Muyang Ma",
@@ -166,7 +195,10 @@
     "link": "https://dl.acm.org/doi/fullHtml/10.1145/3487331",
     "underReview": false,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
     "text": "Minxing Zhang, Zhaochun Ren, Zihan Wang, Pengjie Ren, Zhumin Chen, Pengfei Hu, Yang Zhang. Membership Inference Attacks Against Recommender Systems. The ACM Conference on Computer and Communications Security (CCS), 2021.",
@@ -190,7 +222,10 @@
     "link": "https://dl.acm.org/doi/abs/10.1145/3460120.3484770",
     "underReview": false,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Muyang Ma, Pengjie Ren*, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Jun Ma, Maarten de Rijke. Improving Transformer-based Sequential Recommenders through Preference Editing. Transactions on Information Systems (TOIS), 2021. (under review)",
@@ -228,7 +263,7 @@
       "Evangelos Kanoulas",
       "Maarten de Rijke"
     ],
-      "title": "Few-Shot Electronic Health Record Coding through Graph Contrastive Learning",
+    "title": "Few-Shot Electronic Health Record Coding through Graph Contrastive Learning",
     "conference": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2021",
     "authorIndex": 2,
     "star": false,
@@ -239,7 +274,8 @@
     "link": "https://arxiv.org/pdf/2106.15467.pdf",
     "underReview": true,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "ei": true
   },
   {
     "text": "Wenchao Sun, Muyang Ma, Pengjie Ren*, Yujie Lin, Zhumin Chen, Jun Ma, Maarten de Rijke. Parallel Split-Join Networks for Shared-account Cross-domain Sequential Recommendations. IEEE Transactions on Knowledge and Data Engineering (TKDE), 2021.",
@@ -263,7 +299,8 @@
     "link": "https://ieeexplore.ieee.org/document/9647967",
     "underReview": false,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "ei": true
   },
   {
     "text": "Yifan Chen, Yang Wang, Pengjie Ren, Meng Wang, Maarten de Rijke. Bayesian Feature Interaction Selection for Factorization Machines. The journal of Artificial Intelligence (AIJ), 2021. ",
@@ -284,7 +321,10 @@
     "levelIndex": 1,
     "link": "https://doi.org/10.1016/j.artint.2021.103589",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
     "text": "Pengjie Ren, Zhumin Chen, Zhaochun Ren, Evangelos Kanoulas, Christof Monz, Maarten de Rijke. Conversations with Search Engines: SERP-based Conversational Response Generation. Transactions on Information Systems (TOIS), 2021.",
@@ -306,7 +346,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3432726",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
     "text": "Wanyu Chen, Pengjie Ren, Fei Cai, Fei Sun, Maarten de Rijke. Multi-interest Diversification for End-to-end Sequential Recommendation. Transactions on Information Systems (TOIS), 2021.",
@@ -327,7 +370,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3475768",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
     "text": "Yangjun Zhang, Pengjie Ren* and Maarten de Rijke. A Human-machine Collaborative Framework for Evaluating Malevolence in Dialogues. The Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021), Online, August 1-6, 2021.",
@@ -346,7 +392,8 @@
     "levelIndex": 1,
     "link": "https://aclanthology.org/2021.acl-long.436/",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "ei": true
   },
   {
     "text": "Zhongkun Liu, Pengjie Ren*, Zhumin Chen, Zhaochun Ren, Maarten de Rijke and Ming Zhou. Learning to Ask Conversational Questions by Optimizing Levenshtein Distance. The Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021), Online, August 1-6, 2021.",
@@ -368,7 +415,8 @@
     "levelIndex": 1,
     "link": "https://aclanthology.org/2021.acl-long.438.pdf",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "ei": true
   },
   {
     "text": "Yangjun Zhang, Pengjie Ren*, Maarten de Rijke. A Taxonomy, Dataset and Benchmark for Detecting and Classifying Malevolent Dialogue Responses. The Journal of the Association for Information Science and Technology (JASIST), 2021.",
@@ -387,10 +435,13 @@
     "levelIndex": 2,
     "link": "https://doi.org/10.1002/asi.24496",
     "comment": "在early view上，没有volume和issue",
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
-    "text": "Pengjie Ren, Zhongkun Liu, Xiaomeng Song, Hongtao Tian, Zhumin Chen, Zhaochun Ren and Maarten de Rijke. Wizard of Search Engine: Access to Information Through Conversations with Search Engines. The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021.",
+    "text": "Pengjie Ren, Zhongkun Liu, Xiaomeng Song, Hongtao Tian, Zhumin Chen, Zhaochun Ren and Maarten de Rijke. Wizard of Search Engine Access to Information through Conversations with Search Engines. The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021.",
     "authors": [
       "Pengjie Ren",
       "Zhongkun Liu",
@@ -400,7 +451,7 @@
       "Zhaochun Ren",
       "Maarten de Rijke"
     ],
-    "title": "Wizard of Search Engine: Access to Information Through Conversations with Search Engines",
+    "title": "Wizard of Search Engine Access to Information through Conversations with Search Engines",
     "conference": "The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021",
     "authorIndex": 1,
     "star": false,
@@ -410,7 +461,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3404835.3462897",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Chuan Meng, Pengjie Ren*, Zhumin Chen, Zhaochun Ren, Tengxiao Xi and Maarten de Rijke. Initiative-Aware Self-Supervised learning for Knowledge-Grounded Conversations. The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021.",
@@ -432,10 +486,13 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3404835.3462824",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
-    "text": "Dongdong Li, Zhaochun Ren, Pengjie Ren, Zhumin Chen, Miao Fan, Jun Ma and Maarten de Rijke. Few-shot Variational Reasoning for Medical Dialogue Generation. The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021.",
+    "text": "Dongdong Li, Zhaochun Ren, Pengjie Ren, Zhumin Chen, Miao Fan, Jun Ma and Maarten de Rijke. Semi-Supervised Variational Reasoning for Medical Dialogue Generation. The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021.",
     "authors": [
       "Dongdong Li",
       "Zhaochun Ren",
@@ -445,7 +502,7 @@
       "Jun Ma",
       "Maarten de Rijke"
     ],
-    "title": "Few-shot Variational Reasoning for Medical Dialogue Generation",
+    "title": "Semi-Supervised Variational Reasoning for Medical Dialogue Generation",
     "conference": "The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021",
     "authorIndex": 3,
     "star": false,
@@ -455,7 +512,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3404835.3462921",
     "comment": "名字不对",
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Zihan Wang, Hongye Song, Zhaochun Ren, Pengjie Ren, Zhumin Chen, Xiaozhong Liu, Hongsong Li and Maarten de Rijke. Cross-Domain Contract Element Extraction with a Bi-directional Feedback Clause-Element Relation Network. The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021.",
@@ -479,7 +539,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3404835.3462873",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Weiwei Sun, Chuan Meng, Qi Meng, Zhaochun Ren, Pengjie Ren*, Zhumin Chen and Maarten de Rijke. Conversations Powered by Cross-Lingual Knowledge. The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021.",
@@ -502,7 +565,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3404835.3462883",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Weiwei Sun, Shuo Zhang, Krisztian Balog, Zhaochun Ren, Pengjie Ren, Zhumin Chen and Maarten de Rijke. Simulating User Satisfaction for the Evaluation of Task-oriented Dialogue Systems. The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2021.",
@@ -525,7 +591,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3404835.3463241",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Jiahuan Pei, Pengjie Ren* and Maarten de Rijke. A Cooperative Memory Network for Personalized Task-oriented Dialogue Systems with Incomplete User Profiles. The Web Conference (WWW), 2021.",
@@ -544,7 +613,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3442381.3449843",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Qiannan Cheng, Yujie Lin, Zhaochun Ren, Pengjie Ren, Zhumin Chen, Xiangyuan Liu and Maarten de Rijke. Long Short-Term Session Search with Joint Document Reranking and Next Query Prediction. The Web Conference (WWW), 2021.",
@@ -567,7 +639,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3442381.3449941",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Qintong Li, Hongshen Chen, Zhaochun Ren, Pengjie Ren, Zhaopeng Tu and Zhumin Chen. EmpDG: Multi-resolution Interactive Empathetic Dialogue Generation. The 28th International Conference on Computational Linguistics (COLING), 2020.",
@@ -631,12 +706,14 @@
     "levelIndex": 2,
     "link": "https://doi.org/10.1145/3340531.3411897",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
-    "text": "Xiao Huang, Pengjie Ren, Zhaochun Ren, Fei Sun, Xiangnan He, Dawei Yin and Maarten de Rijke. Report on the International Workshop on Natural Language Processing for Recommendations (NLP4REC 2020) Workshop held at WSDM 2020. SIGIR Forum, 2020.",
+    "text": "Pengjie Ren, Zhaochun Ren, Fei Sun, Xiangnan He, Dawei Yin and Maarten de Rijke. Report on the International Workshop on Natural Language Processing for Recommendations (NLP4REC 2020) Workshop held at WSDM 2020. SIGIR Forum, 2020.",
     "authors": [
-      "Xiao Huang",
       "Pengjie Ren",
       "Zhaochun Ren",
       "Fei Sun",
@@ -646,15 +723,19 @@
     ],
     "title": "Report on the International Workshop on Natural Language Processing for Recommendations (NLP4REC 2020) Workshop held at WSDM 2020",
     "conference": "SIGIR Forum, 2020",
-    "authorIndex": 2,
-    "star": false,
+    "authorIndex": 1,
+    "star": true,
     "coFirst": false,
     "year": "2020",
     "level": "A",
     "levelIndex": 1,
     "link": null,
-    "comment": "workshop啥也不是",
-    "coStar": false
+    "comment": "Xiao Huang不在列表里",
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true,
+    "workshop": true
   },
   {
     "text": "Hongshen Chen, Zhaochun Ren, Pengjie Ren, Dawei Yin and Xiaodong He. AIIS: The SIGIR 2020 Workshop on Applied Interactive Information Systems (AIIS 2020).",
@@ -672,9 +753,13 @@
     "coFirst": false,
     "level": "A",
     "levelIndex": 1,
-    "link": null,
+    "link": "https://dl.acm.org/doi/10.1145/3397271.3401461",
     "comment": "workshop啥也不是",
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "workshop": true,
+    "cpci": true
   },
   {
     "text": "Yujie Lin, Pengjie Ren*, Zhumin Chen, Zhaochun Ren, Dongxiao Yu*, Jun Ma, Maarten de Rijke and Xiuzhen Cheng. Meta Matrix Factorization for Federated Rating Predictions. The 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2020.",
@@ -698,7 +783,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3397271.3401081",
     "comment": null,
-    "coStar": true
+    "coStar": true,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Shanshan Wang, Pengjie Ren*, Zhumin Chen*, Zhaochun Ren, Jian-Yun Nie, Jun Ma and Maarten de Rijke. Coding Electronic Health Records with Adversarial Reinforcement Path Generation. The 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2020.",
@@ -721,7 +809,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3397271.3401135",
     "comment": null,
-    "coStar": true
+    "coStar": true,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Nikos Voskarides, Dan Li, Pengjie Ren, Evangelos Kanoulas and Maarten de Rijke. Query Resolution for Conversational Search with Limited Supervision. The 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2020.",
@@ -742,7 +833,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3397271.3401130",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Chuan Meng, Pengjie Ren*, Zhumin Chen*, Weiwei Sun, Zhaochun Ren, Zhaopeng Tu and Maarten de Rijke. DukeNet: A Dual Knowledge Interaction Network for Knowledge-Grounded Conversation. The 43th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2020.",
@@ -765,26 +859,10 @@
     "levelIndex": 1,
     "link": "https://doi.org/10.1145/3397271.3401097",
     "comment": null,
-    "coStar": true
-  },
-  {
-    "text": "Pengjie Ren, Zhaochun Ren, Fei Sun, Xiangnan He, Dawei Yin and Maarten de Rijke. The WSDM 2020 Workshop on Natural Language Processing for Recommendations (NLP4REC 2020).",
-    "authors": [
-      "Pengjie Ren",
-      "Zhaochun Ren",
-      "Fei Sun",
-      "Xiangnan He",
-      "Dawei Yin",
-      "Maarten de Rijke"
-    ],
-    "title": "The WSDM 2020 Workshop on Natural Language Processing for Recommendations (NLP4REC 2020)",
-    "conference": "",
-    "authorIndex": 1,
-    "star": false,
-    "coFirst": false,
-    "link": null,
-    "comment": null,
-    "coStar": false
+    "coStar": true,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Minghong Xu, Piji Li, Haoran Yang, Pengjie Ren, Zhaochun Ren, Zhumin Chen and Jun Ma. A Neural Topical Expansion Framework for Unstructured Persona-oriented Dialogue Generation. The 24th European Conference on Artificial Intelligence (ECAI 2020).",
@@ -807,7 +885,10 @@
     "levelIndex": 2,
     "link": "https://ecai2020.eu/papers/345_paper.pdf",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Jiahuan Pei, Pengjie Ren, Christof Monz and Maarten de Rijke. Retrospective and Prospective Mixture-of-Generators for Task-oriented Dialogue Response Generation. The 24th European Conference on Artificial Intelligence (ECAI 2020).",
@@ -827,7 +908,10 @@
     "levelIndex": 2,
     "link": "https://ecai2020.eu/papers/92_paper.pdf",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Chuan Meng, Pengjie Ren*, Zhumin Chen*, Christof Monz, Jun Ma, Maarten de Rijke. RefNet: A Reference-aware Network for Background Based Conversation. The Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI), 2020.",
@@ -849,7 +933,10 @@
     "levelIndex": 1,
     "link": "https://doi.org/10.1609/aaai.v34i05.6370",
     "comment": null,
-    "coStar": true
+    "coStar": true,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Pengjie Ren, Zhumin Chen, Christof Monz, Jun Ma, Maarten de Rijke. Thinking Globally, Acting Locally: Distantly Supervised Global-to-Local Knowledge Selection for Background Based Conversation. The Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI), 2020.",
@@ -870,7 +957,10 @@
     "levelIndex": 1,
     "link": "https://doi.org/10.1609/aaai.v34i05.6395",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Shanshan Wang, Pengjie Ren,Zhumin Chen, Zhaochun Ren, Jun Ma and Maarten de Rijke. Order-free Medicine Combination Prediction With Graph Convolutional Reinforcement Learning. The 28th ACM International Conference on Information and Knowledge Management (CIKM), 2019.",
@@ -892,7 +982,10 @@
     "levelIndex": 2,
     "link": "https://dl.acm.org/doi/10.1145/3357384.3357965",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Yangjun Zhang, Pengjie Ren, and Maarten de Rijke.Improving Background Based Conversation with Context-aware Knowledge Pre-selection. In SCAI: IJCAI 2019 Workshop on Search-Oriented Conversational AI. August 2019.",
@@ -909,7 +1002,8 @@
     "year": "2019",
     "link": null,
     "comment": "workshop",
-    "coStar": false
+    "coStar": false,
+    "workshop": true
   },
   {
     "text": "Jiahuan Pei, Pengjie Ren, and Maarten de Rijke. A Modular Task-oriented Dialogue System Using a Neural Mixture-of-Experts. In WCIS: SIGIR 2019 Workshop on Conversational Interaction Systems. ACM, July 2019.",
@@ -928,7 +1022,8 @@
     "levelIndex": 1,
     "link": "https://arxiv.org/pdf/1907.05346.pdf",
     "comment": "workshop不用管",
-    "coStar": false
+    "coStar": false,
+    "workshop": true
   },
   {
     "text": "Yifan Chen, Pengjie Ren, Yang Wang, and Maarten de Rijke. Bayesian Personalized Feature Interaction Selection for Factorization Machines. The 42th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2019.",
@@ -948,10 +1043,13 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3331184.3331196",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
-    "text": "Muyang Ma#, Pengjie Ren#, Yujie Lin#, Zhumin Chen, Jun Ma, and Maarten de Rijke. π-Net: A Parallel Information-sharing Network for Cross-domain Shared-account Sequential Recommendations. The 42th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2019.",
+    "text": "Muyang Ma#, Pengjie Ren#, Yujie Lin#, Zhumin Chen, Jun Ma, and Maarten de Rijke. pi-Net: A Parallel Information-sharing Network for Shared-account Cross-domain Sequential Recommendations. The 42th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2019.",
     "authors": [
       "Muyang Ma#",
       "Pengjie Ren#",
@@ -960,7 +1058,7 @@
       "Jun Ma",
       "Maarten de Rijke"
     ],
-    "title": "π-Net: A Parallel Information-sharing Network for Cross-domain Shared-account Sequential Recommendations",
+    "title": "pi-Net: A Parallel Information-sharing Network for Shared-account Cross-domain Sequential Recommendations",
     "conference": "The 42th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2019",
     "authorIndex": 2,
     "star": false,
@@ -970,7 +1068,10 @@
     "levelIndex": 1,
     "link": "https://doi.org/10.1145/3331184.3331200",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Meirui Wang, Pengjie Ren, Lei Mei, Zhumin Chen, Jun Ma, and Maarten de Rijke. A Collaborative Session-based Recommendation Approach with Parallel Memory Modules. The 42th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2019.",
@@ -992,7 +1093,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3331184.3331210",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Yujie Lin#, Pengjie Ren#, Zhumin Chen, Zhaochun Ren, Jun Ma, and Maarten de Rijke.Improving Outfit Recommendation with Co-supervision of Fashion Generation. The Web Conference (WWW), 2019.",
@@ -1014,7 +1118,10 @@
     "levelIndex": 1,
     "link": "https://doi.org/10.1145/3308558.3313614",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Shaojie Jiang, Pengjie Ren, Christof Monz, and Maarten de Rijke. Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss. The Web Conference (WWW), 2019.",
@@ -1034,7 +1141,10 @@
     "levelIndex": 1,
     "link": "https://dl.acm.org/doi/10.1145/3308558.3313415",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Pengjie Ren, Zhumin Chen, Jing Li, Zhaochun Ren, Jun Ma, and Maarten de Rijke. RepeatNet: A Repeat Aware Neural Recommendation Machine for Session-based Recommendation. The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI), January 27 – February 1, 2019, Hawaii, USA.",
@@ -1056,10 +1166,13 @@
     "levelIndex": 1,
     "link": "https://ojs.aaai.org/index.php/AAAI/article/view/4408",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
-    "text": "Yujie Lin#, Pengjie Ren#, Zhumin Chen, Zhaochun Ren, Jun Ma, and Maarten de Rijke. Explainable fashion recommendation with joint outfit matching and comment generation. IEEE Transactions on Knowledge and Data Engineering (TKDE), 2019",
+    "text": "Yujie Lin#, Pengjie Ren#, Zhumin Chen, Zhaochun Ren, Jun Ma, and Maarten de Rijke. Explainable Outfit Recommendation with Joint Outfit Matching and Comment Generation. IEEE Transactions on Knowledge and Data Engineering (TKDE), 2019",
     "authors": [
       "Yujie Lin#",
       "Pengjie Ren#",
@@ -1068,7 +1181,7 @@
       "Jun Ma",
       "Maarten de Rijke"
     ],
-    "title": "Explainable fashion recommendation with joint outfit matching and comment generation",
+    "title": "Explainable Outfit Recommendation with Joint Outfit Matching and Comment Generation",
     "conference": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2019",
     "authorIndex": 2,
     "star": false,
@@ -1078,7 +1191,10 @@
     "levelIndex": 1,
     "link": "https://doi.ieeecomputersociety.org/10.1109/TKDE.2019.2906190",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
     "text": "Yupeng Hu, Pengjie Ren, Wei Luo, Peng Zhan, and Xueqing Li. Multi-resolution representation with recurrent neural networks application for streaming time series in IoT. Computer Networks, Volume 152, 7 April 2019, Pages 114-132.",
@@ -1099,7 +1215,10 @@
     "levelIndex": 2,
     "link": "https://doi.org/10.1016/j.comnet.2019.01.035",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
     "text": "Lei Mei#, Pengjie Ren#, Zhumin Chen, Liqiang Nie, Jun Ma, and Jian-Yun Nie. An Attentive Interaction Network for Context-aware Recommendations. The 27th ACM International Conference on Information and Knowledge Management (CIKM), 2018.",
@@ -1121,7 +1240,10 @@
     "levelIndex": 2,
     "link": "https://dl.acm.org/doi/10.1145/3269206.3271813",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Pengjie Ren, Zhumin Chen, Zhaochun Ren, Furu Wei, Liqiang Nie, Jun Ma, and Maarten de Rijke. Sentence Relations for Extractive Summarization with Deep Neural Networks. Transactions on Information Systems (TOIS), 2018.",
@@ -1144,7 +1266,10 @@
     "levelIndex": 1,
     "link": "https://doi.org/10.1145/3200864",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
     "text": "Jing Li, Pengjie Ren, Zhumin Chen, Zhaochun Ren, and Jun Ma. Neural Attentive Session-based Recommendation. The 26th ACM Conference on Information and Knowledge Management (CIKM), 2017. (Best Paper Runner-up)",
@@ -1165,7 +1290,10 @@
     "levelIndex": 2,
     "link": "https://doi.org/10.1145/3132847.3132926",
     "comment": "Best Paper Runner-up",
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Chuanqi Tan, Furu Wei, Pengjie Ren, Weifeng Lv, and Ming Zhou. Entity Linking for Queries by Searching Wikipedia Sentences. Conference on Empirical Methods in Natural Language Processing (EMNLP), 2017.",
@@ -1186,7 +1314,8 @@
     "levelIndex": 2,
     "link": "http://dx.doi.org/10.18653/v1/D17-1007",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "ei": true
   },
   {
     "text": "Pengjie Ren, Zhumin Chen, Zhaochun Ren, Furu Wei, Jun Ma, and Maarten de Rijke. Leveraging Contextual Sentence Relations for Extractive Summarization Using a Neural Attention Model. The 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), 2017.",
@@ -1208,7 +1337,10 @@
     "levelIndex": 1,
     "link": "https://doi.org/10.1145/3077136.3080792",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Kaiyuan Cui, Pengjie Ren, Zhumin Chen, Tao Lian, and Jun Ma. Relation Enhanced Neural Model for Type Classification of Entity Mentions with A Fine-grained Taxonomy. Journal of Computer Science and Technology (JCST), 2017.",
@@ -1229,7 +1361,9 @@
     "levelIndex": 2,
     "link": "https://doi.org/10.1007/s11390-017-1762-7",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "sci": true
   },
   {
     "text": "Pengjie Ren, Furu Wei, Zhumin Chen, Jun Ma, and Ming Zhou. A Redundancy-Aware Sentence Regression Framework for Extractive Summarization. The 26th International Conference on Computational Linguistics (COLING), 2016.",
@@ -1250,7 +1384,8 @@
     "levelIndex": 2,
     "link": "https://aclanthology.org/C16-1004/",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "ei": true
   },
   {
     "text": "Pengjie Ren, Zhumin Chen, Jun Ma, Shuaiqiang Wang, Zhiwei Zhang, and Zhaochun Ren. User Session Level Diverse Reranking of Search Results. Neurocomputing, 2016.",
@@ -1272,7 +1407,10 @@
     "levelIndex": 3,
     "link": "https://doi.org/10.1016/j.neucom.2016.05.087",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
     "text": "Zhiwei Zhang, Jingang Wang, Tao Wu, Pengjie Ren, Zhumin Chen, and Luo Si. Supervised Local Contexts Aggregation for Effective Session Search. European Conference on Information Retrieval (ECIR), 2016.",
@@ -1294,7 +1432,8 @@
     "levelIndex": 3,
     "link": "https://doi.org/10.1007/978-3-319-30671-1_5",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "ei": true
   },
   {
     "text": "Pengjie Ren, Zhumin Chen, Jun Ma, Shuaiqiang Wang, Zhiwei Zhang, Zhaochun Ren. Mining and Ranking Users' Intents behind Queries. Information Retrieval Journal (IR), 2015.",
@@ -1316,7 +1455,9 @@
     "levelIndex": 3,
     "link": "https://doi.org/10.1007/s10791-015-9271-1",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "sci": true
   },
   {
     "text": "Pengjie Ren, Zhumin Chen, Jun Ma, Zhiwei Zhang, Luo Si, Shuaiqiang Wang. Detecting Temporal Patterns of User Queries. Journal of the Association for Information Science and Technology (JASIST), 2015.",
@@ -1338,7 +1479,10 @@
     "levelIndex": 2,
     "link": "https://doi.org/10.1002/asi.23578",
     "comment": "原来的数据是2015，acm上的时间是2017",
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
     "text": " Pengjie Ren, Peng Liu, Zhumin Chen, Jun Ma, Xiaomeng Song. Learning Similarity Functions for Urban Events Detection by Mining Hotline Phone Records. The 17th Asia-Pacific Web Conference (APWeb), 2015.",
@@ -1359,7 +1503,10 @@
     "levelIndex": 3,
     "link": "https://doi.org/10.1007/978-3-319-25255-1_34",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Kai Wu, Jun Ma, Zhumin Chen, Pengjie Ren. Sleep Quality Evaluation of Active Microblog Users. The 17th Asia-Pacific Web Conference (APWeb), 2015.",
@@ -1379,7 +1526,10 @@
     "levelIndex": 3,
     "link": "https://doi.org/10.1007/978-3-319-25255-1_15",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Kai Wu, Jun Ma, Zhumin Chen, Pengjie Ren. Analysis of Subjective City Happiness Index Based on Large Scale Microblog Data. The 17th Asia-Pacific Web Conference (APWeb), 2015.",
@@ -1399,7 +1549,10 @@
     "levelIndex": 3,
     "link": "https://doi.org/10.1007/978-3-319-25255-1_30",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   },
   {
     "text": "Xueqin Sui, Zhumin Chen, Kai Wu, Pengjie Ren, Jun Ma, Fengyu Zhou.Social Media as Sensor in Real World: Geolocate User with Microblog. Natural Language Processing and Chinese Computing, 2014.",
@@ -1421,7 +1574,8 @@
     "levelIndex": 3,
     "link": "https://doi.org/10.1007/978-3-662-45924-9_21",
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "ei": true
   },
   {
     "text": " Pengjie Ren, Zhumin Chen, Jun Ma, Xiaomeng Song. Understanding Temporal Intent of User Query Based on Time-Based Query Classification. Natural Language Processing and Chinese Computing, 2013. (Best Student Paper)",
@@ -1441,6 +1595,9 @@
     "levelIndex": 3,
     "link": "https://doi.org/10.1007/978-3-642-41644-6_31",
     "comment": "Best Student Paper",
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "cpci": true
   }
 ]

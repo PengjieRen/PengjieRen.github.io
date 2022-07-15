@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Yangjun Zhang, Pengjie Ren*, Wentao Deng, Zhumin Chen, Maarten de Rijke. Improving Multi-label Malevolence Detection in Dialogues through Multi-faceted Label Correlation Enhancement. The 60th Annual Meeting of the Association for Computational Linguistics (ACL), Dublin, Ireland, 22nd - 27th May 2022.",
+    "authors": [
+      "Yangjun Zhang",
+      "Pengjie Ren*",
+      "Wentao Deng",
+      "Zhumin Chen",
+      "Maarten de Rijke"
+    ],
+    "title": "Improving Multi-label Malevolence Detection in Dialogues through Multi-faceted Label Correlation Enhancement",
+    "conference": "The 60th Annual Meeting of the Association for Computational Linguistics (ACL), Dublin, Ireland, 22nd - 27th May 2022",
+    "authorIndex": 2,
+    "star": true,
+    "coFirst": false,
+    "year": "2022",
+    "level": "A",
+    "levelIndex": 1,
+    "link": "https://aclanthology.org/2022.acl-long.248/",
+    "underReview": false,
+    "comment": null,
+    "coStar": false,
+    "originIndex": 5,
+    "fileName": "other-1.pdf"
+  },
+  {
+    "text": "Qintong Li, Hongshen Chen, Zhaochun Ren, Pengjie Ren, Zhaopeng Tu and Zhumin Chen. EmpDG: Multi-resolution Interactive Empathetic Dialogue Generation. The 28th International Conference on Computational Linguistics (COLING), 2020.",
+    "authors": [
+      "Qintong Li",
+      "Hongshen Chen",
+      "Zhaochun Ren",
+      "Pengjie Ren",
+      "Zhaopeng Tu",
+      "Zhumin Chen"
+    ],
+    "title": "EmpDG: Multi-resolution Interactive Empathetic Dialogue Generation",
+    "conference": "The 28th International Conference on Computational Linguistics (COLING), 2020",
+    "authorIndex": 4,
+    "star": false,
+    "coFirst": false,
+    "year": "2020",
+    "level": "B",
+    "levelIndex": 2,
+    "link": "https://aclanthology.org/2020.coling-main.394.pdf",
+    "comment": null,
+    "coStar": false,
+    "originIndex": 26,
+    "fileName": "other-2.pdf"
+  }
+]
