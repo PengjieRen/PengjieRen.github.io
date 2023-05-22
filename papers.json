@@ -1,5 +1,322 @@
 [
   {
+    "text": "Xin Xin, Xiangyuan Liu, Hanbing Wang, Pengjie Ren, Zhumin Chen, Jiahuan Lei, Xinlei Shi, Hengliang Luo, Joemon Jose, Maarten de Rijke, Zhaochun Ren. Improving Implicit Feedback-Based Recommendation through Multi-Behavior Alignment.(under review)",
+    "authors": [
+      "Xin Xin",
+      "Xiangyuan Liu",
+      "Hanbing Wang",
+      "Pengjie Ren",
+      "Zhumin Chen",
+      "Jiahuan Lei",
+      "Xinlei Shi",
+      "Hengliang Luo",
+      "Joemon Jose",
+      "Maarten de Rijke",
+      "Zhaochun Ren"
+    ],
+    "title": "Improving Implicit Feedback-Based Recommendation through Multi-Behavior Alignment",
+    "conference": null,
+    "authorIndex": 4,
+    "star": false,
+    "coFirst": false,
+    "year": "2023",
+    "level": "C",
+    "levelIndex": 3,
+    "link": null,
+    "underReview": true,
+    "comment": null,
+    "coStar": false,
+    "index":null
+  },
+  {
+    "text": "Weiwei Sun, Lingyong Yan, Xinyu Ma, Pengjie Ren, Dawei Yin, Zhaochun Ren. Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent.(under review)",
+    "authors": [
+      "Weiwei Sun",
+      "Lingyong Yan",
+      "Xinyu Ma",
+      "Pengjie Ren",
+      "Dawei Yin",
+      "Zhaochun Ren"
+    ],
+    "title": "Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent",
+    "conference": null,
+    "authorIndex": 4,
+    "star": false,
+    "coFirst": false,
+    "year": "2023",
+    "level": "C",
+    "levelIndex": 3,
+    "link": null,
+    "underReview": true,
+    "comment": "arxiv",
+    "coStar": false
+  },
+  {
+    "text": "Weiwei Sun, Pengjie Ren, Zhaochun Ren. Generative Knowledge Selection for Knowledge-Grounded Dialogues (EACL), Dubrovnik, Croatia, May, 2023",
+    "authors": [
+      "Weiwei Sun",
+      "Pengjie Ren",
+      "Zhaochun Ren"
+    ],
+    "title": "Generative Knowledge Selection for Knowledge-Grounded Dialogues",
+    "conference": "In Findings of the Association for Computational Linguistics: EACL 2023.",
+    "authorIndex": 2,
+    "star": false,
+    "coFirst": false,
+    "year": "2023",
+    "level": "A",
+    "levelIndex": 1,
+    "link": "https://aclanthology.org/2023.findings-eacl.155/",
+    "underReview": false,
+    "comment": null,
+    "coStar": false,
+    "citation": true,
+    "ei": true
+  },
+  {
+    "text": "Weiwei Sun, Lingyong Yan, Zheng Chen, Shuaiqiang Wang, Haichao Zhu, Pengjie Ren, Zhumin Chen, Dawei Yin, Maarten de Rijke, Zhaochun Ren. Learning to Tokenize for Generative Retrieval",
+    "authors": [
+      "Weiwei Sun",
+      "Lingyong Yan",
+      "Zheng Chen",
+      "Shuaiqiang Wang",
+      "Haichao Zhu",
+      "Pengjie Ren",
+      "Zhumin Chen",
+      "Dawei Yin",
+      "Maarten de Rijke",
+      "Zhaochun Ren"
+    ],
+    "title": "Learning to Tokenize for Generative Retrieval",
+    "conference": null,
+    "authorIndex": 6,
+    "star": false,
+    "coFirst": false,
+    "year": "2023",
+    "level": "C",
+    "levelIndex": 3,
+    "link": null,
+    "underReview": true,
+    "comment": null,
+    "coStar": false
+  },
+  {
+    "text": "Yujie Lin, Chenyang Wang, Zhumin Chen, Zhaochun Ren, Xin Xin, Qiang Yan, Maarten de Rijke, Xiuzhen Cheng, Pengjie Ren. A Self-Correcting Sequential Recommender. The Web Conference (WWW), 2023.",
+    "authors": [
+      "Yujie Lin",
+      "Chenyang Wang",
+      "Zhumin Chen",
+      "Zhaochun Ren",
+      "Xin Xin",
+      "Qiang Yan",
+      "Maarten de Rijke",
+      "Xiuzhen Cheng",
+      "Pengjie Ren"
+    ],
+    "title": "A Self-Correcting Sequential Recommender",
+    "conference": "The Web Conference (WWW), 2023.",
+    "authorIndex": 9,
+    "star": true,
+    "coFirst": false,
+    "year": "2023",
+    "level": "A",
+    "levelIndex": 1,
+    "link": "https://dl.acm.org/doi/abs/10.1145/3543507.3583479",
+    "underReview": false,
+    "comment": null,
+    "coStar": false,
+    "citation": true,
+    "ei": true
+  },
+  {
+    "text": "Xiaoyu Zhang, Xin Xin, Dongdong Li, Wenxuan Liu, Pengjie Ren, Zhumin Chen, Jun Ma, Zhaochun Ren. Variational Reasoning over Incomplete Knowledge Graphs for Conversational Recommendation. Web Search and Data Mining (WSDM), 2023.",
+    "authors": [
+      "Xiaoyu Zhang", "Xin Xin", "Dongdong Li", "Wenxuan Liu", "Pengjie Ren", "Zhumin Chen", "Jun Ma", "Zhaochun Ren"
+    ],
+    "title": "Variational Reasoning over Incomplete Knowledge Graphs for Conversational Recommendation",
+    "conference": "Web Search and Data Mining (WSDM), 2023.",
+    "authorIndex": 5,
+    "star": false,
+    "coFirst": false,
+    "year": "2023",
+    "level": "A",
+    "levelIndex": 1,
+    "link": "https://dl.acm.org/doi/abs/10.1145/3539597.3570426",
+    "underReview": false,
+    "comment": null,
+    "coStar": false,
+    "citation": true,
+    "ei": true
+  },
+  {
+    "text": "Xin Xin, Jiyuan Yang, Hanbing Wang, Jun Ma, Pengjie Ren, Hengliang Luo, Xinlei Shi, Zhumin Chen, Zhaochun Ren. On the user behavior leakage from recommender system exposure. Transactions on Information Systems (TOIS), 2023.",
+    "authors": [
+      "Xin Xin", "Jiyuan Yang", "Hanbing Wang", "Jun Ma", "Pengjie Ren", "Hengliang Luo", "Xinlei Shi", "Zhumin Chen", "Zhaochun Ren"
+    ],
+    "title": "On the user behavior leakage from recommender system exposure",
+    "conference": "Transactions on Information Systems (TOIS), 2023",
+    "authorIndex": 5,
+    "star": false,
+    "coFirst": false,
+    "year": "2023",
+    "level": "A",
+    "levelIndex": 1,
+    "link": "https://dl.acm.org/doi/full/10.1145/3568954",
+    "underReview": true,
+    "comment": null,
+    "coStar": false,
+    "citation": true,
+    "ei": true
+  },
+  {
+    "text": "Yujie Lin, Zhumin Chen, Zhaochun Ren, Chenyang Wang, Qiang Yan, Maarten de Rijke, Xiuzhen Cheng, Pengjie Ren. Modeling Sequential Recommendation as Missing Information Imputation.(under review)",
+    "authors": [
+      "Yujie Lin", "Zhumin Chen", "Zhaochun Ren", "Chenyang Wang", "Qiang Yan", "Maarten de Rijke", "Xiuzhen Cheng", "Pengjie Ren"
+    ],
+    "title": "Modeling Sequential Recommendation as Missing Information Imputation",
+    "conference": null,
+    "authorIndex": 8,
+    "star": true,
+    "coFirst": false,
+    "year": "2023",
+    "level": "C",
+    "levelIndex": 3,
+    "link": null,
+    "underReview": true,
+    "comment": null,
+    "coStar": false
+  },
+  {
+    "text": "Zhaochun Ren, Na Huang, Yidan Wang, Pengjie Ren, Jun Ma, Jiahuan Lei, Xinlei Shi, Hengliang Luo, Joemon Jose, Xin Xin. Contrastive State Augmentations for Reinforcement Learning-Based Recommender Systems. The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Taipei, 23-27 July, 2023.",
+    "authors": [
+      "Zhaochun Ren", "Na Huang", "Yidan Wang", "Pengjie Ren", "Jun Ma", "Jiahuan Lei","Xinlei Shi","Hengliang Luo","Joemon Jose","Xin Xin"
+    ],
+    "title": "Contrastive State Augmentations for Reinforcement Learning-Based Recommender Systems",
+    "conference": "The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Taipei, 23-27 July, 2023",
+    "authorIndex": 4,
+    "star": false,
+    "coFirst": false,
+    "year": "2023",
+    "level": "A",
+    "levelIndex": 1,
+    "link": null,
+    "underReview": false,
+    "comment": null,
+    "coStar": false
+  },
+  {
+    "text": "Shuyu Guo, Shuo Zhang, Weiwei Sun, Pengjie Ren, Zhumin Chen, Zhaochun Ren. Towards Explainable Conversational Recommender Systems. The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Taipei, 23-27 July, 2023.",
+    "authors": [
+      "Shuyu Guo", "Shuo Zhang", "Weiwei Sun", "Pengjie Ren", "Zhumin Chen", "Zhaochun Ren"
+    ],
+    "title": "Towards Explainable Conversational Recommender Systems",
+    "conference": "The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Taipei, 23-27 July, 2023",
+    "authorIndex": 4,
+    "star": false,
+    "coFirst": false,
+    "year": "2023",
+    "level": "A",
+    "levelIndex": 1,
+    "link": null,
+    "underReview": false,
+    "comment": null,
+    "coStar": false
+  },
+  {
+    "text": "Weiwei Sun, Zhengliang Shi, Shen Gao, Pengjie Ren, Maarten de Rijke, Zhaochun Ren. Contrastive Learning Reduces Hallucination in Conversations.(under review)",
+    "authors": [
+      "Weiwei Sun", "Zhengliang Shi", "Shen Gao", "Pengjie Ren", "Maarten de Rijke", "Zhaochun Ren"
+    ],
+    "title": "Contrastive Learning Reduces Hallucination in Conversations",
+    "conference": null,
+    "authorIndex": 4,
+    "star": false,
+    "coFirst": false,
+    "year": "2022",
+    "level": "C",
+    "levelIndex": 3,
+    "link": null,
+    "underReview": true,
+    "comment": null,
+    "coStar": false
+  },
+  {
+    "text": "Zihan Wang, Na Huang, Fei Sun, Pengjie Ren, Zhumin Chen, Hengliang Luo, Maarten de Rijke, Zhaochun Ren. Debiasing Learning for Membership Inference Attacks Against Recommender Systems. Transactions on Knowledge Discovery from Data (TKDD), 2022.",
+    "authors": [
+      "Zihan Wang", "Na Huang", "Fei Sun", "Pengjie Ren", "Zhumin Chen", "Hengliang Luo", "Maarten de Rijke", "Zhaochun Ren"
+    ],
+    "title": "Debiasing Learning for Membership Inference Attacks Against Recommender Systems",
+    "conference": "Transactions on Knowledge Discovery from Data (TKDD), 2022",
+    "authorIndex": 4,
+    "star": false,
+    "coFirst": false,
+    "year": "2022",
+    "level": "B",
+    "levelIndex": 2,
+    "link": "https://dl.acm.org/doi/abs/10.1145/3534678.3539392",
+    "underReview": false,
+    "comment": null,
+    "coStar": false,
+    "citation": true,
+    "ei": true
+  },
+  {
+    "text": "Yougang Lyu, Piji Li, Yechang Yang, Maarten de Rijke, Pengjie Ren, Yukun Zhao, Dawei Yin, Zhaochun Ren. Feature-Level Debiased Natural Language Understanding.(under review)",
+    "authors": [
+      "Yougang Lyu", "Piji Li", "Yechang Yang", "Maarten de Rijke", "Pengjie Ren", "Yukun Zhao", "Dawei Yin", "Zhaochun Ren"
+    ],
+    "title": "Feature-Level Debiased Natural Language Understanding",
+    "conference": null,
+    "authorIndex": 5,
+    "star": false,
+    "coFirst": false,
+    "year": "2022",
+    "level": "C",
+    "levelIndex": 3,
+    "link": null,
+    "underReview": true,
+    "comment": null,
+    "coStar": false
+  },
+  {
+    "text": "Qintong Li, Piji Li, Zhaochun Ren, Pengjie Ren, Zhumin Chen. Knowledge bridging for empathetic dialogue generation. The 36th AAAI Conference on Artificial Intelligence (AAAI), 2022.",
+    "authors": [
+      "Qintong Li", "Piji Li", "Zhaochun Ren", "Pengjie Ren", "Zhumin Chen"
+    ],
+    "title": "Knowledge bridging for empathetic dialogue generation",
+    "conference": "The 36th AAAI Conference on Artificial Intelligence (AAAI), 2022",
+    "authorIndex": 4,
+    "star": false,
+    "coFirst": false,
+    "year": "2022",
+    "level": "A",
+    "levelIndex": 1,
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/21347",
+    "comment": null,
+    "coStar": true,
+    "citation": true,
+    "cpci": true,
+    "ei": true
+  },
+  {
+    "text": "Shanshan Wang, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Qiang Yan, Pengjie Ren. Paying More Attention to Self-attention: Improving Pre-trained Language Models via Attention Guiding.(under review)",
+    "authors": [
+      "Shanshan Wang", "Zhumin Chen", "Zhaochun Ren", "Huasheng Liang", "Qiang Yan", "Pengjie Ren"
+    ],
+    "title": "Paying More Attention to Self-attention: Improving Pre-trained Language Models via Attention Guiding",
+    "conference": null,
+    "authorIndex": 6,
+    "star": true,
+    "coFirst": false,
+    "year": "2022",
+    "level": "C",
+    "levelIndex": 3,
+    "link": null,
+    "underReview": true,
+    "comment": null,
+    "coStar": false
+  },
+  {
     "text": "Xin Xin, Tiago Pimentel, Alexandros Karatzoglou, Pengjie Ren, Konstantina Christakopoulou and Zhaochun Ren. Rethinking Reinforcement Learning for Recommendation: A Prompt Perspective. The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Madrid, July 11-15, 2022.",
     "authors": [
       "Xin Xin",
@@ -17,10 +334,13 @@
     "year": "2022",
     "level": "A",
     "levelIndex": 1,
-    "link": null,
+    "link": "https://dl.acm.org/doi/10.1145/3477495.3531714",
     "underReview": false,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "cpci": true,
+    "ei": true
   },
   {
     "text": "Zhaochun Ren, Zhi Tian, Dongdong Li, Pengjie Ren, Liu Yang, Xin Xin, Huasheng Liang, Maarten de Rijke and Zhumin Chen. Variational Reasoning about User Preferences for Conversational Recommendation. The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Madrid, July 11-15, 2022.",
@@ -43,10 +363,13 @@
     "year": "2022",
     "level": "A",
     "levelIndex": 1,
-    "link": null,
+    "link": "https://dl.acm.org/doi/10.1145/3477495.3532077",
     "underReview": false,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "cpci": true,
+    "ei": true
   },
   {
     "text": "Mengxue Zhao, Yang Yang, Miao Li, JinGang Wang, Wei Wu, Pengjie Ren, Maarten de Rijke and Zhaochun Ren. Personalized Abstractive Opinion Tagging. The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Madrid, July 11-15, 2022.",
@@ -68,10 +391,13 @@
     "year": "2022",
     "level": "A",
     "levelIndex": 1,
-    "link": null,
+    "link": "https://dl.acm.org/doi/10.1145/3477495.3532037",
     "underReview": false,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "cpci": true,
+    "ei": true
   },
   {
     "text": "Guojun Yan, Jiahuan Pei, Pengjie Ren, Zhaochun Ren, Xin Xin, Huasheng Liang, Maarten de Rijke and Zhumin Chen. ReMeDi: Resources for Multi-domain, Multi-service, Medical Dialogues. The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Madrid, July 11-15, 2022.",
@@ -93,12 +419,14 @@
     "year": "2022",
     "level": "A",
     "levelIndex": 1,
-    "link": null,
+    "link": "https://dl.acm.org/doi/10.1145/3477495.3531809",
     "underReview": false,
     "comment": null,
     "coStar": false,
+    "arXiv": false,
     "ei": true,
-    "arXiv": true
+    "citation": true,
+    "cpci": true
   },
   {
     "text": "Jie Zou, Evangelos Kanoulas, Pengjie Ren, Zhaochun Ren, Aixin Sun and Cheng Long. Improving Conversational Recommender Systems via Transformer-based Sequential Modelling. The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), Madrid, July 11-15, 2022.",
@@ -118,10 +446,13 @@
     "year": "2022",
     "level": "A",
     "levelIndex": 1,
-    "link": null,
+    "link":"https://dl.acm.org/doi/10.1145/3477495.3531852",
     "underReview": false,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "ei": true,
+    "citation": true,
+    "cpci": true
   },
   {
     "text": "Yangjun Zhang, Pengjie Ren*, Wentao Deng, Zhumin Chen, Maarten de Rijke. Improving Multi-label Malevolence Detection in Dialogues through Multi-faceted Label Correlation Enhancement. The 60th Annual Meeting of the Association for Computational Linguistics (ACL), Dublin, Ireland, 22nd - 27th May 2022.",
@@ -143,7 +474,10 @@
     "link": "https://aclanthology.org/2022.acl-long.248/",
     "underReview": false,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "cpci": true,
+    "ei": true
   },
   {
     "text": "Yougang Lyu, Zihan Wang, Zhaochun Ren, Pengjie Ren, Zhumin Chen, Xiaozhong Liu, Yujun Li, Hongsong Li and Hongye Song. MIFN: Mixed Information Flow for Cross-domain Sequential Recommendations. Transactions on Knowledge Discovery from Data (TKDD), 2021.",
@@ -249,7 +583,10 @@
     "link": "https://arxiv.org/pdf/2106.12120.pdf",
     "underReview": true,
     "comment": null,
-    "coStar": false
+    "coStar": false,
+    "citation": true,
+    "ei": true,
+    "sci": true
   },
   {
     "text": "Shanshan Wang, Pengjie Ren, Zhumin Chen, Zhaochun Ren, Huasheng Liang, Qiang Yan, Evangelos Kanoulas, Maarten de Rijke. Few-Shot Electronic Health Record Coding through Graph Contrastive Learning. IEEE Transactions on Knowledge and Data Engineering (TKDE), 2021. (under review)",
