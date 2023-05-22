@@ -35,6 +35,10 @@ var list2 = $('#list2');
 var htmls = []
 $.getJSON('papers.json', (data) => {
     data.forEach((paper, index) => {
+        if(paper.underReview===true)
+        {
+            return
+        }
         data[index].originIndex = index
         let html = ''
         paper.authors.forEach((author, authorIndex) => {
